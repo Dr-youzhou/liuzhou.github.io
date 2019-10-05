@@ -87,7 +87,7 @@ author:
   location: 'Beijing, China'
   employer: 'Peking University'
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar: 'https://scholar.google.com/citations?user=MIPbyQ0AAAAJ&hl=en'
+  googlescholar: 'https://scholar.google.com.hk/citations?user=LKvjDSgAAAAJ&hl=zh-CN'
   email: yongzhili@pku.edu.cn
   #researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
@@ -97,13 +97,13 @@ author:
   flickr:
   facebook:
   foursquare:
-  #github           : "academicpages"
+  github: 'https://github.com/muziyongshixin'
   google_plus:
   keybase:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin: 'junqing-zhang-83040440/'
+  linkedin: 'https://www.linkedin.com/in/%E5%8B%87%E5%BF%97-%E6%9D%8E-754894189/'
   orcid: 'https://orcid.org/0000-0002-3502-2926'
   pinterest:
   soundcloud:
