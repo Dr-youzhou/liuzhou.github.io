@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en-US"
-title                   : "Junqing Zhang"
+title                   : "Yongzhi Li"
 title_separator          : "-"
-name                     : &name "Junqing Zhange"
-description              : &description "A passionate wireless security researcher"
-url                      : https://junqing-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yongzhi Li"
+description              : &description "A master student study in Peking University, China. Majored in computer vision and deep learning "
+url                      : https://muziyongshixin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "junqing-zhang/junqing-zhang.github.io"
+repository               : "muziyongshixin/muziyongshixin.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -82,14 +82,14 @@ google_analytics: UA-138327029-1
 
 # Site Author
 author:
-  name             : "Junqing Zhang"
+  name             : "Yongzhi Li"
   avatar           : "profile.png"
   bio              : "A passionate wireless security researcher at University of Liverpool"
   location         : "Liverpool, UK"
   employer         : "University of Liverpool"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=MIPbyQ0AAAAJ&hl=en"
-  email            : junqing.zhang@liverpool.ac.uk
+  email            :  yongzhili@pku.edu.cn
   #researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
