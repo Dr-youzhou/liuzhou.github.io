@@ -9,17 +9,20 @@ main:
       - title: "Key Generation Publication"
         url: /posts/2019/04/blog-post-keygen_liv_pub/
 
-  - title: "Research Group"
-    url: /research-group/
+#   - title: "Research Group"
+#     url: /research-group/
 
-  - title: "Funding & Award"
-    url: /funding-and-awards/
+#   - title: "Funding & Award"
+#     url: /funding-and-awards/
 
-  - title: "Professional Activity"
-    url: /professional-activities/
+#   - title: "Professional Activity"
+#     url: /professional-activities/
 
-#  - title: "CV"
-#    url: /cv/
+ - title: "Projects"
+   url: /projects/
+
+ - title: "CV"
+   url: /cv/
 
   - title: "Blog"
     url: /archive-year/
