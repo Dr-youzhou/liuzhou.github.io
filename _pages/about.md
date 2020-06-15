@@ -19,9 +19,13 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 
 ## News
 
-- One paper accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Visual-Semantic Matching by Exploring High-Order Attention and Distraction](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf)[Bibtext](javascript:togglebib('cvpr20_lyz')){:target="\_blank"}
-- One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2020. [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification](http://www.muyadong.com/paper/ICME20_LYZ.pdf)[Bibtext](javascript:togglebib('liyz20a'))
-- One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling](http://www.muyadong.com/paper/icmr009-wengA.pdf) [Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:o4wDKaeQEcoJ:scholar.google.com/&output=citation&scisdr=CgWijybOEP-rjgY045I:AAGBfm0AAAAAXucx-5I9Wvt4EoQ6-t67DgJPoHU_5cCR&scisig=AAGBfm0AAAAAXucx-5fq8KL9LGGXPDRtixwkMBF4jrwC&scisf=4&ct=citation&cd=-1&hl=zh-CN)
+- One paper accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Visual-Semantic Matching by Exploring High-Order Attention and Distraction](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf) [[Bibtext](javascript:togglebib('cvpr20_lyz'))]{:target="\_blank"}
+
+- One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2020. [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
+[[Bibtext](javascript:togglebib('liyz20a'))]
+
+- One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling](http://www.muyadong.com/paper/icmr009-wengA.pdf)#(Oral Presentation)#
+[[Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:o4wDKaeQEcoJ:scholar.google.com/&output=citation&scisdr=CgWijybOEP-rjgY045I:AAGBfm0AAAAAXucx-5I9Wvt4EoQ6-t67DgJPoHU_5cCR&scisig=AAGBfm0AAAAAXucx-5fq8KL9LGGXPDRtixwkMBF4jrwC&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 ## Research Area
 
@@ -32,18 +36,13 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 - Video Steganography
 
 
-## Demonstration
-
-- [Key Generation Demonstration using WARP]({{ site.url }}/posts/2019/04/12/keygendemo/)
-- [LoRaWAN Demonstration using Pycom FiPy]({{ site.url }}/posts/2019/04/blog-post-lorawan-fipy-demo/)
-
 ## Contact
 
 Email: yongzhili at pku.edu.cn
+
 Wechat: lyz327067530
-Academy for Advanced interdisciplinary Studies
-Peking University
-Beijing, China 
+
+Adress: Academy for Advanced interdisciplinary Studies,Peking University, Beijing, China .
 
 ## Supervisor
 [穆亚东](http://www.muyadong.com) (Yadong Mu), Peking University, China
