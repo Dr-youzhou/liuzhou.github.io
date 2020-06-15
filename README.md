@@ -13,8 +13,9 @@
 
 主要页面都在其中，每个 markdown 文件就是一个页面
 
-## _posts 目录
-包含blog中的所有文章信息，其中的命名格式为：
+## \_posts 目录
+
+包含 blog 中的所有文章信息，其中的命名格式为：
 YYYY-MM-DD-blog-post-xxxxxxnamexxxxx.md
 
 ## files 文件夹
