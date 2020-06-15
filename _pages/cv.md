@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# [Click Here to Download My Resume]({{ site.url }}/files/pdf/lyz_resume.pdf)
+## [Click Here to Download My Resume]({{ site.url }}/files/pdf/lyz_resume.pdf)
 
 <!--
 Education
