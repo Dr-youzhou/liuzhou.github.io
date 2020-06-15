@@ -1,14 +1,21 @@
 # main links links
 main:
-  - title: "Research Area"
+  - title: 'Research Area'
     url: /research-area/
-    
-  - title: "Publication"
+
+  - title: 'Publication'
     url: /publication/
     children:
-      - title: "Key Generation Publication"
+      - title: 'Key Generation Publication'
         url: /posts/2019/04/blog-post-keygen_liv_pub/
+  - title: 'Projects'
+    url: /projects/
 
+  - title: 'CV'
+    url: /cv/
+
+  - title: 'Blog'
+    url: /archive-year/
 #   - title: "Research Group"
 #     url: /research-group/
 
@@ -17,12 +24,3 @@ main:
 
 #   - title: "Professional Activity"
 #     url: /professional-activities/
-
- - title: "Projects"
-   url: /projects/
-
- - title: "CV"
-   url: /cv/
-
-  - title: "Blog"
-    url: /archive-year/
