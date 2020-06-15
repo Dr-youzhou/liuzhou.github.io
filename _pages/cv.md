@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Download My Resume]({{ site.url }}/files/pdf/lyz_resume_20.6.pdf)
-TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+# [Click Here to Download My Resume]({{ site.url }}/files/pdf/lyz_resume_20.6.pdf)
 
+<!--
 Education
 
 Work Experience
@@ -20,4 +20,4 @@ Work Experience
 
   <ul>{% for post in site.publication %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
