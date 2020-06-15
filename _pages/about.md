@@ -24,7 +24,7 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 - One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2020. [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
 [[Bibtext](javascript:togglebib('liyz20a'))]
 
-- One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling](http://www.muyadong.com/paper/icmr009-wengA.pdf)#(Oral Presentation)#
+- One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling](http://www.muyadong.com/paper/icmr009-wengA.pdf) **(Oral Presentation)**
 [[Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:o4wDKaeQEcoJ:scholar.google.com/&output=citation&scisdr=CgWijybOEP-rjgY045I:AAGBfm0AAAAAXucx-5I9Wvt4EoQ6-t67DgJPoHU_5cCR&scisig=AAGBfm0AAAAAXucx-5fq8KL9LGGXPDRtixwkMBF4jrwC&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 ## Research Area
