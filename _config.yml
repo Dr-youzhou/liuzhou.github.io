@@ -7,10 +7,10 @@
 
 # Site Settings
 locale: 'en-US'
-title: 'Yongzhi Li'
+title: '李勇志 (Yongzhi Li)'
 title_separator: '-'
-name: &name 'Yongzhi Li'
-description: &description 'A master student study in Peking University, China. Majored in computer vision and deep learning. '
+name: &name '李勇志 (Yongzhi Li)'
+description: &description 'A master student in Peking University, China. Majored in computer vision and deep learning. '
 url: https://muziyongshixin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: '' # the subpath of your site, e.g. "/blog"
 repository: 'muziyongshixin/muziyongshixin.github.io'
@@ -81,7 +81,7 @@ google_analytics: UA-138327029-1
 
 # Site Author
 author:
-  name: 'Yongzhi Li'
+  name: '李勇志 (Yongzhi Li)'
   avatar: 'profile.png'
   bio: 'A master student study in Peking University, China. Majored in computer vision and deep learning.'
   location: 'Beijing, China'
