@@ -19,25 +19,18 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 
 ## News
 
-- PhD Opening: [Safeguarding Autonomous Systems, Key Generation for Mobile Ad Hoc Networks](https://www.liverpool.ac.uk/study/postgraduate-research/studentships/key-generation-for-mobile-ad-hoc-networks/){:target="\_blank"}
-- The first Annual General Meeting of the UK-Jiangsu 20+20 World-Class University Consortium was held. [link]({{ site.url }}/posts/2019/04/blog-post-uk-jiangsu-collaboration/)
-- My Royal Society Research Grants application is successful. This project will employ deep learning to classify LoRa devices based on their unique radio frequency fingerprinting.
+- One paper accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Visual-Semantic Matching by Exploring High-Order Attention and Distraction](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf)[Bibtext](javascript:togglebib('cvpr20_lyz')){:target="\_blank"}
+- One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2020. [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification](http://www.muyadong.com/paper/ICME20_LYZ.pdf)[Bibtext](javascript:togglebib('liyz20a'))
+- One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling](http://www.muyadong.com/paper/icmr009-wengA.pdf) [Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:o4wDKaeQEcoJ:scholar.google.com/&output=citation&scisdr=CgWijybOEP-rjgY045I:AAGBfm0AAAAAXucx-5I9Wvt4EoQ6-t67DgJPoHU_5cCR&scisig=AAGBfm0AAAAAXucx-5fq8KL9LGGXPDRtixwkMBF4jrwC&scisf=4&ct=citation&cd=-1&hl=zh-CN)
 
 ## Research Area
 
-- Internet of Things
-- Wireless security
-- Physical layer security
-- Key generation
-- Radio frequency fingerprint identification
+- Computer Vision
+- Deep Learning
+- Cross-modal Retrieval/Matching 
+- Medical AI
+- Video Steganography
 
-## Research Expertise
-
-- Wireless communication techniques, such as OFDM, spread spectrum, etc
-- Wireless communication protocols, such as IEEE 802.11, ZigBee, LoRa/LoRaWAN, etc, in particular physical and MAC layers
-- Wireless channel modelling
-- Software defined radios including, USRP, Zedboard + FMCOMMS2, and WARP
-- Machine learning applications
 
 ## Demonstration
 
@@ -46,11 +39,11 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 
 ## Contact
 
-Email: junqing.zhang at liverpool.ac.uk  
-Web: [https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/junqing-zhang/](https://www.liverpool.ac.uk/electrical-engineering-and-electronics/staff/junqing-zhang/){:target="\_blank"}
-Tel: 0151 79 57790  
-Department of Electrical Engineering and Electronics  
-University of Liverpool  
-Brownlow Hill  
-Liverpool L69 3GJ  
-United Kingdom
+Email: yongzhili at pku.edu.cn
+Wechat: lyz327067530
+Academy for Advanced interdisciplinary Studies
+Peking University
+Beijing, China 
+
+## Supervisor
+[穆亚东](http://www.muyadong.com) (Yadong Mu), Peking University, China
