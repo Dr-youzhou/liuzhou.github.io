@@ -1,21 +1,22 @@
 ---
 layout: archive
-title: "Publication"
+title: 'Publication'
 permalink: /publication/
 author_profile: true
 toc: true
 ---
-His citation profile in [Google Scholar](https://scholar.google.com/citations?user=MIPbyQ0AAAAJ&hl=en).
 
-Our publication in the area of key generation is summarized at [here](https://junqing-zhang.github.io/posts/2019/04/blog-post-keygen_liv_pub/)
+His citation profile in [Google Scholar](https://scholar.google.com.hk/citations?user=LKvjDSgAAAAJ&hl=zh-CN).
 
-Please [email me](mailto:junqing.zhang@liverpool.ac.uk) if you require a copy of the paper.
+<!-- Our publication in the area of key generation is summarized at [here](https://junqing-zhang.github.io/posts/2019/04/blog-post-keygen_liv_pub/) -->
+
+Please [email me](yongzhili@pku.edu.cn) if you require a copy of the paper.
 
 {% include toc %}
 
-# Book Chapter
-1. **Junqing Zhang**, Trung Q. Duong, Roger Woods, and Alan Marshall, “Key generation from wireless channels: A survey and practical implementation” in _Trusted Communications with Physical Layer Security for 5G and Beyond_, Trung Q. Duong, Xiangyun Zhou, and Vincent Poor, Eds, Stevenage, UK: Institute of Engineering and Technology, 2017
-
+<!-- # Book Chapter
+1. **Junqing Zhang**, Trung Q. Duong, Roger Woods, and Alan Marshall, “Key generation from wireless channels: A survey and practical implementation” in _Trusted Communications with Physical Layer Security for 5G and Beyond_, Trung Q. Duong, Xiangyun Zhou, and Vincent Poor, Eds, Stevenage, UK: Institute of Engineering and Technology, 2017 -->
+<!--
 # Journal Article
 1. Henri Ruotsalainen, **Junqing Zhang**, and Stepan Grebeniuk, “Experimental Investigation on Wireless Key Generation for Low Power Wide Area Networks,” _IEEE Internet of Things Journal_, accepted
 1. **Junqing Zhang**, Sekhar Rajendran, Zhi Sun, Roger Woods, and Lajos Hanzo, “Physical Layer Security for the Internet of Things: Authentication and Key Generation,” _IEEE Wireless Communications_, 2019. [link](https://ieeexplore.ieee.org/document/8715341)
@@ -40,10 +41,25 @@ Please [email me](mailto:junqing.zhang@liverpool.ac.uk) if you require a copy of
 1. **Junqing Zhang**, Trung Q. Duong, Alan Marshall, and Roger Woods, “Key generation from wireless channels: A review,” _IEEE Access_, vol. 4, pp. 614- 626, Mar. 2016. Open Access. [link](https://ieeexplore.ieee.org/abstract/document/7393435)
 1. Jinghua Zhang, Phong Nguyen, **Junqing Zhang**, Emi Garcia, and Ngoc Phuc Le, “Impact of primary networks on the performance of energy harvesting cognitive radio networks,” _IET Communications_, vol. 10, no. 18, pp. 2559 – 2566, Dec. 2016. [link](https://digital-library.theiet.org/content/journals/10.1049/iet-com.2016.0400)
 1. Nguyen-Son Vo, Binh Ha, Berk Canberk, and **Junqing Zhang**, “Green two-tiered wireless multimedia sensor systems: An energy, bandwidth, and quality optimization framework,” _IET Communications_, vol. 10, no. 18, pp. 2543 – 2550, Dec. 2016. [link](https://digital-library.theiet.org/content/journals/10.1049/iet-com.2016.0406)
-1. Yuan Ding, **Junqing Zhang**, and Vincent Fusco, “Frequency diverse array OFDM transmitter for secure wireless communication,” _Electronics Letters_, vol. 51, no. 17, pp. 1374-1376, 2015. [link](https://digital-library.theiet.org/content/journals/10.1049/el.2015.1491)
+1. Yuan Ding, **Junqing Zhang**, and Vincent Fusco, “Frequency diverse array OFDM transmitter for secure wireless communication,” _Electronics Letters_, vol. 51, no. 17, pp. 1374-1376, 2015. [link](https://digital-library.theiet.org/content/journals/10.1049/el.2015.1491) -->
 
 # Conference Paper
-1. Wei Li, Mounir Ghogho, **Junqing Zhang**, Des McLernon, Jing Lei and Syed Ali Raza Zaidi, “Design of an Energy-Efficient Multidimensional Secure Constellation for 5G Communications,” in _Proc. IEEE ICC Workshop on Wireless Physical Layer Security_, Shanghai, China, May 2019.
+
+<!-- 1. Wei Li, Mounir Ghogho, **Junqing Zhang**, Des McLernon, Jing Lei and Syed Ali Raza Zaidi, “Design of an Energy-Efficient Multidimensional Secure Constellation for 5G Communications,” in _Proc. IEEE ICC Workshop on Wireless Physical Layer Security_, Shanghai, China, May 2019. -->
+
+1. **Yongzhi Li**, Duo Zhang, Yadong Mu,
+   "Visual-Semantic Matching by Exploring High-Order Attention and Distraction",
+   IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Link](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf)
+
+1. **Yongzhi Li**, Lu Chi, Guiyu Tian, Yadong Mu, Shen Ge, Zhi Qiao, Xian Wu, Wei Fan,
+   "Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification",
+   IEEE International Conference on Multimedia and Expo (ICME) 2020. [Link](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
+
+1. Xinyu Weng, **Yongzhi Li**, Lu Chi, Yadong Mu,
+   "High-Capacity Convolutional Video Steganography with Temporal Residual Modeling",
+   ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf)
+
+<!--
 1. Yun Wen, Makoto Yoshida, **Junqing Zhang**, Zheng Chu, Pei Xiao, and Rahim Tafazolli, “Machine Learning Based Attack Against Artificial Noise-aided Secure Communication,” in _Proc. IEEE ICC_, Shanghai, China, May 2019.
 1. Linning Peng, Guyue Li, **Junqing Zhang**, and Aiqun Hu, “Securing M2M Transmissions Using Nonreconciled Secret Keys Generated from Wireless Channels,” in _Proc. IEEE GLOBECOM Workshop on Trusted Communications with Physical Layer Security (TCPLS)_, Abu Dhabi, Dec. 2018. [link](https://ieeexplore.ieee.org/abstract/document/8644401)
 1. Yuan Ding, Vincent Fusco, and **Junqing Zhang**, “Distributed OFDM transmitter scheme for Internet of Things,” in _Proc. 12th European Conference on Antennas and Propagation (EuCAP)_, 2018. [link](https://digital-library.theiet.org/content/conferences/10.1049/cp.2018.0480)
@@ -53,4 +69,4 @@ Please [email me](mailto:junqing.zhang@liverpool.ac.uk) if you require a copy of
 1. **Junqing Zhang**, Roger Woods, Trung Q. Duong, Alan Marshall, and Yuan Ding, “Experimental study on channel reciprocity in wireless key generation,” in _Proc. 17th IEEE International Workshop on Signal Processing Advances in Wireless Communications Special Session on Physical Layer Security for 5G_, Edinburgh, UK, Jul. 2016 (Invited Paper). [link](https://ieeexplore.ieee.org/abstract/document/7536825)
 1. **Junqing Zhang**, Roger Woods, Alan Marshall, and Trung Q. Duong, “Verification of key generation from individual OFDM subcarrier’s channel response,” in _Proc. IEEE GLOBECOM Workshop on Trusted Communications with Physical Layer Security (TCPLS)_, San Diego, CA, USA, Dec. 2015, pp. 1–6. [link](https://ieeexplore.ieee.org/abstract/document/7414111)
 1. **Junqing Zhang**, Roger Woods, Alan Marshall, and Trung Q. Duong, “An effective key generation system using improved channel reciprocity,” in _Proc. 40th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)_, Brisbane, Australia, Apr. 2015, pp. 1727–1731. [link](https://ieeexplore.ieee.org/abstract/document/7178266/)
-1. **Junqing Zhang**, Alan Marshall, Roger Woods, and Trung Q. Duong, “Secure key generation from OFDM subcarriers’ channel responses,” in _Proc. IEEE GLOBECOM Workshop on Trusted Communications with Physical Layer Security (TCPLS)_, Austin, Texas, USA, Dec. 2014, pp. 1302–1307. [link](https://ieeexplore.ieee.org/abstract/document/7063613)
+1. **Junqing Zhang**, Alan Marshall, Roger Woods, and Trung Q. Duong, “Secure key generation from OFDM subcarriers’ channel responses,” in _Proc. IEEE GLOBECOM Workshop on Trusted Communications with Physical Layer Security (TCPLS)_, Austin, Texas, USA, Dec. 2014, pp. 1302–1307. [link](https://ieeexplore.ieee.org/abstract/document/7063613) -->

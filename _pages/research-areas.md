@@ -5,11 +5,8 @@ permalink: /research-areas/
 author_profile: true
 ---
 
-## Research Interests
 I have developed a strong research potential in innovative computer vision application and deep learning algorithm.
- 
 My current research mainly focuses on fine-grained cross-modal retrieval and matching, including the mining of higher-order and complex semantic information and some hashing related work. 
-
 My research interests also include the application of AI technology in the medical field and other security and privacy-related applications like video steganography.
  <!-- My research aims to bridge the gap between the theoretical modelling and practical exploitation of physical layer security using state-of-the-art testbeds and equipment. -->
 <!-- In particular, my research aims to ensure the secure connection using key generation and device authentication using radio frequency fingerprint identification. -->
