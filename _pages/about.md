@@ -31,8 +31,7 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 
 - One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)**
 
-  [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling](http://www.muyadong.com/paper/icmr009-wengA.pdf)
-  [[Bibtext](https://dl.acm.org/doi/abs/10.1145/3323873.3325011)]
+  [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling]({{ site.url }}/pages/publication/)
 
 ## Research Area
 

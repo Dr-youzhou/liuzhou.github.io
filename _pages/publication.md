@@ -57,7 +57,7 @@ Please [email me](yongzhili@pku.edu.cn) if you require a copy of the paper.
 
 1. Xinyu Weng, **Yongzhi Li**, Lu Chi, Yadong Mu,
    "High-Capacity Convolutional Video Steganography with Temporal Residual Modeling",
-   ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf)
+   ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf) [[Bibtext](https://dl.acm.org/doi/abs/10.1145/3323873.3325011)]
 
 <!--
 1. Yun Wen, Makoto Yoshida, **Junqing Zhang**, Zheng Chu, Pei Xiao, and Rahim Tafazolli, “Machine Learning Based Attack Against Artificial Noise-aided Secure Communication,” in _Proc. IEEE ICC_, Shanghai, China, May 2019.
