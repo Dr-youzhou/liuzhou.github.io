@@ -48,15 +48,15 @@ Please [email me](yongzhili@pku.edu.cn) if you require a copy of the paper.
 <!-- 1. Wei Li, Mounir Ghogho, **Junqing Zhang**, Des McLernon, Jing Lei and Syed Ali Raza Zaidi, “Design of an Energy-Efficient Multidimensional Secure Constellation for 5G Communications,” in _Proc. IEEE ICC Workshop on Wireless Physical Layer Security_, Shanghai, China, May 2019. -->
 
 1. **Yongzhi Li**, Duo Zhang, Yadong Mu,
-   "Visual-Semantic Matching by Exploring High-Order Attention and Distraction",
+   _"Visual-Semantic Matching by Exploring High-Order Attention and Distraction"_,
    IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Link](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf)
 
 1. **Yongzhi Li**, Lu Chi, Guiyu Tian, Yadong Mu, Shen Ge, Zhi Qiao, Xian Wu, Wei Fan,
-   "Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification",
+   _"Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification"_,
    IEEE International Conference on Multimedia and Expo (ICME) 2020. [Link](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
 
 1. Xinyu Weng, **Yongzhi Li**, Lu Chi, Yadong Mu,
-   "High-Capacity Convolutional Video Steganography with Temporal Residual Modeling",
+   _"High-Capacity Convolutional Video Steganography with Temporal Residual Modeling"_,
    ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf) [[Bibtext](https://dl.acm.org/doi/abs/10.1145/3323873.3325011)]
 
 <!--
