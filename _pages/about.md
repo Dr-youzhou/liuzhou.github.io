@@ -21,17 +21,15 @@ Yongzhi Li is a master student at the Machine Intelligence lab of Peking Univers
 
 - One paper accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020.
 
-  [Visual-Semantic Matching by Exploring High-Order Attention and Distraction](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf)
-  [[Bibtext](<javascript:togglebib('cvpr20_lyz')>)]
+  [Visual-Semantic Matching by Exploring High-Order Attention and Distraction]({{ site.url }}/publication/)
 
 - One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2020.
 
-  [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
-  [[Bibtext](<javascript:togglebib('liyz20a')>)]
+  [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification]({{ site.url }}/publication/)
 
 - One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)**
 
-  [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling]({{ site.url }}/pages/publication/)
+  [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling]({{ site.url }}/publication/)
 
 ## Research Area
 
