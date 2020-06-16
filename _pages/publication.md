@@ -49,7 +49,7 @@ Please [email me](yongzhili@pku.edu.cn) if you require a copy of the paper.
 
 1. **Yongzhi Li**, Duo Zhang, Yadong Mu,
    _"Visual-Semantic Matching by Exploring High-Order Attention and Distraction"_,
-   IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Link](http://www.muyadong.com/paper/CVPR2020_LYZ.pdf)
+   IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Link](http://openaccess.thecvf.com/content_CVPR_2020/html/Li_Visual-Semantic_Matching_by_Exploring_High-Order_Attention_and_Distraction_CVPR_2020_paper.html)
 
 1. **Yongzhi Li**, Lu Chi, Guiyu Tian, Yadong Mu, Shen Ge, Zhi Qiao, Xian Wu, Wei Fan,
    _"Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification"_,
