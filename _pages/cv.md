@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: 'CV'
+title: 'I am looking for a machine learning and computer vision related position in campus recruitment in 2021.'
 permalink: /cv/
 author_profile: true
 redirect_from:
