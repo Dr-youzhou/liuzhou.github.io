@@ -15,7 +15,7 @@ redirect_from:
 
 - Peking University, Data Science (computer vision), (Master degree), 2018-2021
 - Wuhan University, Computer Science and Technology, (Bachelor degree), 2014-2018
-  - GPA: 3.83, Raking: 1/38, CET-6: 571
+  - GPA: 3.83, Ranking: 1/38, CET-6: 571
 
 ## Work Experience
 
