@@ -16,6 +16,7 @@ My research interests also include the application of AI technology in the medic
 
 - Cross-Modal Retrieval (CMR) aims to search semantically similar instances in one modality (e.g.,text) by using a query from another modality (e.g.,image). Since different modality instances come from heterogeneous data sources with different distributions,it has posed new challenges to efficiently and effectively unify different modalities and bridge their semantic gaps.
 Here are some introduction and summary about this topic:
+[[Survey](https://arxiv.org/abs/1607.06215)]
 [[Link1](https://zhuanlan.zhihu.com/p/115273380)]
 [[Link2](https://zhuanlan.zhihu.com/p/117644099)]
 [[Link3](https://zhuanlan.zhihu.com/p/129857640)]
