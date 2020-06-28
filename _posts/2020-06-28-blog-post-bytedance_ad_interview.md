@@ -1,5 +1,5 @@
 ---
-title: '2020计算机视觉秋招提前批面试总结2'
+title: '2020秋招提前批-字节跳动国际化广告部门-面试总结'
 date: 2020-06-22
 permalink: /posts/2020/06/bytedance_ad_interview/
 categories:
