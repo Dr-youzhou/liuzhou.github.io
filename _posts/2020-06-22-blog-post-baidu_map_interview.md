@@ -1,5 +1,5 @@
 ---
-title: '2020计算机视觉秋招提前批面试总结2'
+title: '2020秋招提前批-百度自动驾驶高精地图部门-面试总结'
 date: 2020-06-22
 permalink: /posts/2020/06/baidu_map_interview/
 categories:
