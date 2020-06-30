@@ -254,3 +254,81 @@ if __name__=='__main__':
     print(result)
 
 ```
+
+## 三面
+
+上来就是算法题，感觉面试官是学数学的，频繁叫我推公式。。。。
+
+- 算法题
+  - 有一个长度为 n 的数组，求一个数 k，k 的取值区间为[1, n-1]，使得数组的前 k 个数和后 n-k 个数的方差和最小。
+  - 先推方差公式,然后前缀和公式计算 O(N)时间复杂度：
+  - $C= \frac{1}{n} \sum_{i=1}^{n} (x_i - \hat{x})^2$
+  - $ = \frac{1}{n} \sum_{i=1}^{n} x_i^2 - \frac{2 \hat{x}}{n} \sum_{i=1}^{n}x_i + \hat{x}^2 $
+  - $ = \frac{1}{n} \sum_{i=1}^{n} x_i^2 - \hat{x}^2$
+
+```python
+
+def func(nums):
+    n=len(nums)
+    result=-1
+    best=10000000000000000000000
+    pre_sum=nums[0]
+    sq_pre_sum=(nums[0])**2
+    total_sum=sum(nums)
+    sq_total_sum=sum([x**2 for x in nums])
+    back_sum=total_sum-pre_sum
+    sq_back_sum=sq_total_sum-sq_pre_sum
+    for k in range(1,n):
+        a=sq_pre_sum/k - (pre_sum/k)**2
+        b=sq_back_sum/(n-k) - (back_sum/(n-k))**2
+        cur=a+b
+        if cur<best:
+            best=cur
+            result=k
+        i=k
+        pre_sum+=nums[i]
+        sq_pre_sum+=(nums[i])**2
+        back_sum=total_sum-pre_sum
+        sq_back_sum=sq_total_sum-sq_pre_sum
+
+    return result
+
+```
+
+- 讲解两篇论文和项目
+
+- 平时深度学习模型训练怎么 debug
+
+  - 看 Loss 曲线，看梯度信息，看参数分布，看 ReLU 激活值的概率（如果大量的激活都是 0，说明网络大量节点死亡，实际很少用过）
+
+- ReLU 在 0 点处的梯度怎么处理？
+
+  - 直接取 0 或者用$ln(1+e^x) $近似
+
+- 平时使用什么 optimizer？
+
+  - SGD，ADAM，通常使用 ADAM 因为收敛更快，SGD 往往能收敛到更优解但是较慢
+
+- ADAM 的特点是啥为啥能更快的收敛
+
+  - 因为有 momentum 机制同时结合了 RMSPROP 的优点提高了稳定性
+  - [详解](https://www.jianshu.com/p/aebcaf8af76e)
+
+- 平时使用过哪些 Normalization
+
+  - 主要是用 BN，偶尔用过 Instance Normalization
+
+- 二分类的时候，使用 sigmoid 激活函数为啥不能用 MSE loss？从梯度的角度解释一下
+  - 手推公式的题目
+  - $loss= (y-sig)^2 $
+  - $ \frac{\partial{loss}}{\partial{x}} = 2(y-sig)* \frac{\partial{sig}}{\partial{x}}$
+  - $ =2(y-sig)*(1-sig)(sig))$
+  - 存在的问题在于首先 sigmoid 输出趋近与 0 或者趋近 1 是梯度信息很小，容易产生梯度消失的问题。
+  - 当 y=1 时，即使 sig 输出是 0 其 loss 导致的惩罚梯度也很小，惩罚不够。
+
+* 问面试官一些问题和关于推荐系统的一些咨询：
+  - 是不是使用的模型都比较简单？（是的，模型只是一部分，特征的选择，组合也是很重要的一块，特征工程）
+  - 18 个人负责 tictok 全球的广告算法投放模型，涉及到视频广告，广告和文字的排版等很多问题是否工作压力很大（确实每个人需要负责很多事情，工作时间是弹性的，有时候需要早起和美国团队开会。理论上有机会 transfer 到美国）
+  - 广告部门的年终奖会不会比其他的部门更多（不一定，不同部门的预期是不一样的，所以不是赚钱的越多奖金越多）
+  - TicTok 广告的投放量大概多少（tictok 的 DAU 和国内的抖音差不多了）
+  - 为啥 tictok 和抖音要两个团队（因为国际化的广告玩法和国内不一样，而且像抖音很赚钱，那么大家肯定都会 focus 到抖音业务上 ，tictok 就没人愿意搞了，所以需要一个专门的团队来 focus 在上面）（所以意思是 tictok 不是很赚钱？？？）
