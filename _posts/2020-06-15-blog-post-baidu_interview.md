@@ -9,6 +9,14 @@ tags:
 toc: true
 ---
 
+---
+
+<div class="button01">
+      <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
+      <visited_p class="top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div>
+
 ## 百度 ACG 智能制造部门:
 
 - 部门概况：百度智能云，智能制造部门。主要面向工业智能方向，包含工业大数据，调度优化；云上平台；线下算法产品。 视觉应用在 3C 质检领域（例如手机、笔记本外壳充电口外观质检），汽车纺织领域的视觉应用。工业巡检，工人安全操作规范。还是存在一些数据少的问题，团队总体规模 30~40 人，算法人员大概 10 人。
@@ -134,3 +142,5 @@ toc: true
   - 判断点是不是在三角形中的方式：目标点到三条边所在的直线作垂线，判断垂线交点是不是都在三角形的线段内，如果是返回 True,否则返回 False
 
   - [**正确解法**](https://blog.csdn.net/zhouzi2018/article/details/81737178)
+
+<div data-hk-top-pages="5"> </div>

@@ -9,6 +9,14 @@ tags:
 toc: true
 ---
 
+--- 
+
+<div class="button01">
+      <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
+      <visited_p class="top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div>
+
 ## 百度自动驾驶，高精地图部门定位方向:
 
 - 部门概况：主要面向自动驾驶中高精地图的构建和定位两个方向，定位主要是对多种传感器的使用来实现车辆位置的精确定位，目前已经可以实现 20cm 左右的精度。定位团队大概 20 多人，高精地图团队大概 40~50 人左右。整个百度自动驾驶相关的人员在 1000 人以上。
@@ -75,3 +83,6 @@ toc: true
 - 你对自动驾驶有兴趣吗
 
 - 聊了一下自动驾驶这个领域的未来，前景，目前的现状和困难，和国内外厂商的对比和趋势。
+
+
+<div data-hk-top-pages="5"> </div>

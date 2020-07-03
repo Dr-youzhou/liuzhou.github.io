@@ -9,6 +9,15 @@ tags:
 toc: true
 ---
 
+
+--- 
+
+<div class="button01">
+      <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
+      <visited_p class="top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div>
+
 ## 字节跳动，国际化广告变现部门
 
 - 部门概况：主要是 TicTok 的全球广告算法模型相关，有一些上游的团队负责特征提取等工作。团队规模大概 18 人。
@@ -334,3 +343,5 @@ def func(nums):
   - 为啥 tictok 和抖音要两个团队（因为国际化的广告玩法和国内不一样，而且像抖音很赚钱，那么大家肯定都会 focus 到抖音业务上 ，tictok 就没人愿意搞了，所以需要一个专门的团队来 focus 在上面）
       <!-- （所以意思是 tictok 不是很赚钱？？？） -->
    
+
+   <div data-hk-top-pages="5"> </div>
