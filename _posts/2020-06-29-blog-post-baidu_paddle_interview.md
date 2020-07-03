@@ -14,10 +14,17 @@ toc: true
 
 真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
 
+<!--
 <div class="visited_number">
       <visited_a href="#"><span data-hk-page="current"> - </span></visited_a>
       <visited_p class="visited_top">٩(๑^o^๑)۶</visited_p>
       <visited_p class="visited_bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div> -->
+
+<div class="button01">
+      <visited_a href="#"><span data-hk-page="current"> - </span></visited_a>
+      <visited_p class="top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
 </div>
 
 ## Baidu，深度学习平台部(PaddlePaddle)
@@ -274,12 +281,12 @@ int main() {
 
 <style type="text/css"> 
 
-.visited_number {
+.button01 {
   width: 200px;
   margin: 50px auto 20px auto;
 }
  
-.visited_number a {
+.button01 a {
   display: block;
   height: 50px;
   width: 200px;
@@ -293,16 +300,16 @@ int main() {
  
   /*GRADIENT*/  
   background: #00b7ea; /* Old browsers */
-  background: -moz-linear-gradient(visited_top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(0%,#00b7ea), color-svisited_top(100%,#009ec3)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
-  background: linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* W3C */
+  background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
+  background: linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
 }
  
-.visited_number visited_a, visited_p {
+.button01 visited_a, visited_p {
     -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
@@ -337,33 +344,33 @@ visited_p {
 }
  
 /*HOVER*/
-.visited_number:hover .visited_bottom {
+.button01:hover .bottom {
   margin: -10px 0 0 10px;
 }
  
-.visited_number:hover .visited_top {
+.button01:hover .top {
   margin: -80px 0 0 10px;
   line-height: 35px;
 }
  
 /*ACTIVE*/
-.visited_number a:active {
+.button01 a:active {
 	 background: #00b7ea; /* Old browsers */
-	 background: -moz-linear-gradient(visited_top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
-	 background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(36%,#00b7ea), color-svisited_top(100%,#009ec3)); /* Chrome,Safari4+ */
-	 background: -webkit-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
-	 background: -o-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
-	 background: -ms-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
-	 background: linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* W3C */
+	 background: -moz-linear-gradient(top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
+	 background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
+	 background: linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* W3C */
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
  
 }
  
-.visited_number:active .visited_bottom {
+.button01:active .bottom {
   margin: -20px 0 0 10px;
 }
  
-.visited_number:active .visited_top {
+.button01:active .top {
   margin: -70px 0 0 10px;
 }
 </style>
