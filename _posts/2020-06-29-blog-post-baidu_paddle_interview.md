@@ -9,7 +9,6 @@ tags:
 toc: true
 ---
 
-
 真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
 
 <!--
@@ -263,8 +262,6 @@ int main() {
 }
 ```
 
---
-
 ## 三面
 
 总体感觉很轻松，20 多分钟就结束了，主要是一些宽泛的个人经历的讲解，以及工作内容，未来发展的一些沟通。
@@ -275,10 +272,6 @@ int main() {
 - 学院主要是干啥的，导师是谁
 - 闲聊，对于未来工作内容的沟通，北京户口貌似要抽签，工作节奏差不多 1095 或者 995。
 
+---
+
 <div data-hk-top-pages="5"> </div>
-
-<style type="text/css"> 
-
-</style>
-
-<link rel="stylesheet" href="{{ site.url }}/_sass/visited_buttom.css" type="text/css" >
