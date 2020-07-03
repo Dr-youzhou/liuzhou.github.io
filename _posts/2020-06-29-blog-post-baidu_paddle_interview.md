@@ -259,7 +259,12 @@ int main() {
 - 学院主要是干啥的，导师是谁
 - 闲聊，对于未来工作内容的沟通，北京户口貌似要抽签，工作节奏差不多 1095 或者 995。
 
-<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script>
+<!-- <script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script>
+<script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script> -->
+
+test
+
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
 <script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script>
 
 <span data-hk-page="current"> - </span>
