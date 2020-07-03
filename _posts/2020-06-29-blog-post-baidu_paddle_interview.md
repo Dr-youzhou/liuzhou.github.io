@@ -19,7 +19,7 @@ toc: true
 </div> -->
 
 <div class="button01">
-      终于等到你，<visited_a href="#">你是第<span data-hk-page="current"> - </span>个访客~</visited_a>
+      <p display:inline>终于等到你，</p><visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>个访客~</visited_a>
       <visited_p class="top">٩(๑^o^๑)۶</visited_p>
       <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
 </div>
