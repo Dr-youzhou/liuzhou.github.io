@@ -14,10 +14,10 @@ toc: true
 
 真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
 
-<div class="button01">
+<div class="visited_number">
       <a href="#"><span data-hk-page="current"> - </span></a>
-      <p class="top">٩(๑^o^๑)۶</p>
-      <p class="bottom">Σ(っ °Д °;)っ被你发现了！</p>
+      <p class="visited_top">٩(๑^o^๑)۶</p>
+      <p class="visited_bottom">Σ(っ °Д °;)っ被你发现了！</p>
 </div>
 
 ## Baidu，深度学习平台部(PaddlePaddle)
@@ -274,12 +274,12 @@ int main() {
 
 <style type="text/css"> 
 
-.button01 {
+.visited_number {
   width: 200px;
   margin: 50px auto 20px auto;
 }
  
-.button01 a {
+.visited_number a {
   display: block;
   height: 50px;
   width: 200px;
@@ -293,16 +293,16 @@ int main() {
  
   /*GRADIENT*/  
   background: #00b7ea; /* Old browsers */
-  background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
-  background: linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* W3C */
+  background: -moz-linear-gradient(visited_top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(0%,#00b7ea), color-svisited_top(100%,#009ec3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
+  background: linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
 }
  
-.button01 a, p {
+.visited_number a, p {
     -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
           border-radius: 10px;
@@ -337,33 +337,33 @@ p {
 }
  
 /*HOVER*/
-.button01:hover .bottom {
+.visited_number:hover .visited_bottom {
   margin: -10px 0 0 10px;
 }
  
-.button01:hover .top {
+.visited_number:hover .visited_top {
   margin: -80px 0 0 10px;
   line-height: 35px;
 }
  
 /*ACTIVE*/
-.button01 a:active {
+.visited_number a:active {
 	 background: #00b7ea; /* Old browsers */
-	 background: -moz-linear-gradient(top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
-	 background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
-	 background: -webkit-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
-	 background: -o-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
-	 background: -ms-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
-	 background: linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* W3C */
+	 background: -moz-linear-gradient(visited_top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
+	 background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(36%,#00b7ea), color-svisited_top(100%,#009ec3)); /* Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
+	 background: linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* W3C */
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
  
 }
  
-.button01:active .bottom {
+.visited_number:active .visited_bottom {
   margin: -20px 0 0 10px;
 }
  
-.button01:active .top {
+.visited_number:active .visited_top {
   margin: -70px 0 0 10px;
 }
 </style>
