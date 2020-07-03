@@ -331,4 +331,6 @@ def func(nums):
   - 18 个人负责 tictok 全球的广告算法投放模型，涉及到视频广告，广告和文字的排版等很多问题是否工作压力很大（确实每个人需要负责很多事情，工作时间是弹性的，有时候需要早起和美国团队开会。理论上有机会 transfer 到美国）
   - 广告部门的年终奖会不会比其他的部门更多（不一定，不同部门的预期是不一样的，所以不是赚钱的越多奖金越多）
   - TicTok 广告的投放量大概多少（tictok 的 DAU 和国内的抖音差不多了）
-  - 为啥 tictok 和抖音要两个团队（因为国际化的广告玩法和国内不一样，而且像抖音很赚钱，那么大家肯定都会 focus 到抖音业务上 ，tictok 就没人愿意搞了，所以需要一个专门的团队来 focus 在上面）（所以意思是 tictok 不是很赚钱？？？）
+  - 为啥 tictok 和抖音要两个团队（因为国际化的广告玩法和国内不一样，而且像抖音很赚钱，那么大家肯定都会 focus 到抖音业务上 ，tictok 就没人愿意搞了，所以需要一个专门的团队来 focus 在上面）
+      <!-- （所以意思是 tictok 不是很赚钱？？？） -->
+    <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3245417&c=9736564" alt="AmazingCounters.com"></a></div>
