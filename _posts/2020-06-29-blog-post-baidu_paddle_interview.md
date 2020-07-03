@@ -12,9 +12,13 @@ toc: true
 <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
 <script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script>
 
-本文已经被<span data-hk-page="current"> - </span>人临幸啦~
+真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
 
-<div data-hk-top-pages="5"> </div>
+<div class="button01">
+      <a href="#"><span data-hk-page="current"> - </span></a>
+      <p class="top">٩(๑^o^๑)۶</p>
+      <p class="bottom">Σ(っ °Д °;)っ被你发现了！</p>
+</div>
 
 ## Baidu，深度学习平台部(PaddlePaddle)
 
@@ -266,5 +270,100 @@ int main() {
 - 学院主要是干啥的，导师是谁
 - 闲聊，对于未来工作内容的沟通，北京户口貌似要抽签，工作节奏差不多 1095 或者 995。
 
-<!-- <script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script>
-<script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script> -->
+<div data-hk-top-pages="5"> </div>
+
+<style type="text/css"> 
+
+.button01 {
+  width: 200px;
+  margin: 50px auto 20px auto;
+}
+ 
+.button01 a {
+  display: block;
+  height: 50px;
+  width: 200px;
+ 
+  /*TYPE*/
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+ 
+  /*GRADIENT*/  
+  background: #00b7ea; /* Old browsers */
+  background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
+  background: linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+}
+ 
+.button01 a, p {
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+ 
+  -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+ 
+p {
+  background: #222;
+  display: block;
+  height: 40px;
+  width: 180px; 
+  margin: -50px 0 0 10px;
+ 
+  /*TYPE*/
+  text-align: center;
+  font: 12px/45px Helvetica, Verdana, sans-serif;
+  color: #fff;
+ 
+  /*POSITION*/
+  position: absolute;
+  z-index: -1;
+ 
+  /*TRANSITION*/  
+  -webkit-transition: margin 0.5s ease;
+     -moz-transition: margin 0.5s ease;
+       -o-transition: margin 0.5s ease;
+      -ms-transition: margin 0.5s ease;
+          transition: margin 0.5s ease;
+}
+ 
+/*HOVER*/
+.button01:hover .bottom {
+  margin: -10px 0 0 10px;
+}
+ 
+.button01:hover .top {
+  margin: -80px 0 0 10px;
+  line-height: 35px;
+}
+ 
+/*ACTIVE*/
+.button01 a:active {
+	 background: #00b7ea; /* Old browsers */
+	 background: -moz-linear-gradient(top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
+	 background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
+	 background: linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* W3C */
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+ 
+}
+ 
+.button01:active .bottom {
+  margin: -20px 0 0 10px;
+}
+ 
+.button01:active .top {
+  margin: -70px 0 0 10px;
+}
+</style>
