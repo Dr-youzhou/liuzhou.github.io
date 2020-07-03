@@ -15,9 +15,9 @@ toc: true
 真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
 
 <div class="visited_number">
-      <a href="#"><span data-hk-page="current"> - </span></a>
-      <p class="visited_top">٩(๑^o^๑)۶</p>
-      <p class="visited_bottom">Σ(っ °Д °;)っ被你发现了！</p>
+      <visited_a href="#"><span data-hk-page="current"> - </span></visited_a>
+      <visited_p class="visited_top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="visited_bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
 </div>
 
 ## Baidu，深度学习平台部(PaddlePaddle)
@@ -271,99 +271,99 @@ int main() {
 - 闲聊，对于未来工作内容的沟通，北京户口貌似要抽签，工作节奏差不多 1095 或者 995。
 
 <div data-hk-top-pages="5"> </div>
-<!-- 
-<style type="text/css">
+
+<style type="text/css"> 
 
 .visited_number {
-width: 200px;
-margin: 50px auto 20px auto;
+  width: 200px;
+  margin: 50px auto 20px auto;
 }
-
+ 
 .visited_number a {
-display: block;
-height: 50px;
-width: 200px;
-
-/_TYPE_/
-color: white;
-font: 17px/50px Helvetica, Verdana, sans-serif;
-text-decoration: none;
-text-align: center;
-text-transform: uppercase;
-
-/_GRADIENT_/  
- background: #00b7ea; /_ Old browsers _/
-background: -moz-linear-gradient(visited*top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ _/
-background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(0%,#00b7ea), color-svisited_top(100%,#009ec3)); /_ Chrome,Safari4+ _/
-background: -webkit-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /_ Chrome10+,Safari5.1+ _/
-background: -o-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /_ Opera 11.10+ _/
-background: -ms-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /_ IE10+ _/
-background: linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /_ W3C _/
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /_ IE6-9 \_/
+  display: block;
+  height: 50px;
+  width: 200px;
+ 
+  /*TYPE*/
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+ 
+  /*GRADIENT*/  
+  background: #00b7ea; /* Old browsers */
+  background: -moz-linear-gradient(visited_top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(0%,#00b7ea), color-svisited_top(100%,#009ec3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
+  background: linear-gradient(visited_top, #00b7ea 0%,#009ec3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
 }
-
-.visited_number a, p {
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-
--webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
--moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+ 
+.visited_number visited_a, visited_p {
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+ 
+  -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
-
-p {
-background: #222;
-display: block;
-height: 40px;
-width: 180px;
-margin: -50px 0 0 10px;
-
-/_TYPE_/
-text-align: center;
-font: 12px/45px Helvetica, Verdana, sans-serif;
-color: #fff;
-
-/_POSITION_/
-position: absolute;
-z-index: -1;
-
-/_TRANSITION_/  
- -webkit-transition: margin 0.5s ease;
--moz-transition: margin 0.5s ease;
--o-transition: margin 0.5s ease;
--ms-transition: margin 0.5s ease;
-transition: margin 0.5s ease;
+ 
+visited_p {
+  background: #222;
+  display: block;
+  height: 40px;
+  width: 180px; 
+  margin: -50px 0 0 10px;
+ 
+  /*TYPE*/
+  text-align: center;
+  font: 12px/45px Helvetica, Verdana, sans-serif;
+  color: #fff;
+ 
+  /*POSITION*/
+  position: absolute;
+  z-index: -1;
+ 
+  /*TRANSITION*/  
+  -webkit-transition: margin 0.5s ease;
+     -moz-transition: margin 0.5s ease;
+       -o-transition: margin 0.5s ease;
+      -ms-transition: margin 0.5s ease;
+          transition: margin 0.5s ease;
 }
-
-/_HOVER_/
+ 
+/*HOVER*/
 .visited_number:hover .visited_bottom {
-margin: -10px 0 0 10px;
+  margin: -10px 0 0 10px;
 }
-
+ 
 .visited_number:hover .visited_top {
-margin: -80px 0 0 10px;
-line-height: 35px;
+  margin: -80px 0 0 10px;
+  line-height: 35px;
 }
-
-/_ACTIVE_/
-.visited*number a:active {
-background: #00b7ea; /* Old browsers _/
-background: -moz-linear-gradient(visited_top, #00b7ea 36%, #009ec3 100%); /_ FF3.6+ _/
-background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(36%,#00b7ea), color-svisited_top(100%,#009ec3)); /_ Chrome,Safari4+ _/
-background: -webkit-linear-gradient(visited_top, #00b7ea 36%,#009ec3 100%); /_ Chrome10+,Safari5.1+ _/
-background: -o-linear-gradient(visited_top, #00b7ea 36%,#009ec3 100%); /_ Opera 11.10+ _/
-background: -ms-linear-gradient(visited_top, #00b7ea 36%,#009ec3 100%); /_ IE10+ _/
-background: linear-gradient(visited_top, #00b7ea 36%,#009ec3 100%); /_ W3C _/
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /_ IE6-9 \_/
-
+ 
+/*ACTIVE*/
+.visited_number a:active {
+	 background: #00b7ea; /* Old browsers */
+	 background: -moz-linear-gradient(visited_top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
+	 background: -webkit-gradient(linear, left visited_top, left visited_bottom, color-svisited_top(36%,#00b7ea), color-svisited_top(100%,#009ec3)); /* Chrome,Safari4+ */
+	 background: -webkit-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+	 background: -o-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
+	 background: -ms-linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
+	 background: linear-gradient(visited_top,  #00b7ea 36%,#009ec3 100%); /* W3C */
+	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+ 
 }
-
+ 
 .visited_number:active .visited_bottom {
-margin: -20px 0 0 10px;
+  margin: -20px 0 0 10px;
 }
-
+ 
 .visited_number:active .visited_top {
-margin: -70px 0 0 10px;
+  margin: -70px 0 0 10px;
 }
-</style> -->
+</style>
