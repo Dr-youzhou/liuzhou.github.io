@@ -333,4 +333,4 @@ def func(nums):
   - TicTok 广告的投放量大概多少（tictok 的 DAU 和国内的抖音差不多了）
   - 为啥 tictok 和抖音要两个团队（因为国际化的广告玩法和国内不一样，而且像抖音很赚钱，那么大家肯定都会 focus 到抖音业务上 ，tictok 就没人愿意搞了，所以需要一个专门的团队来 focus 在上面）
       <!-- （所以意思是 tictok 不是很赚钱？？？） -->
-    <div align="center"><a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3245417&c=9736564" alt="AmazingCounters.com"></a></div>
+   

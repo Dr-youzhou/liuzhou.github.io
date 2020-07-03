@@ -219,7 +219,7 @@ if __name__=="__main__":
 ```
 
 - 基础题 2（选做）
-  - C++不太会没做
+  - C++不太熟没做
 
 ```cpp
 // 试给出下列C++代码的输出，并解释原因
@@ -246,3 +246,19 @@ int main() {
     Y y2 = std::move(y1);
 }
 ```
+
+## 三面
+
+总体感觉很轻松，20 多分钟就结束了，主要是一些宽泛的个人经历的讲解，以及工作内容，未来发展的一些沟通。
+
+- 自我介绍
+- 简单讲解了一下一篇论文
+- 简单介绍了一下在腾讯的实习工作
+- 学院主要是干啥的，导师是谁
+- 闲聊，对于未来工作内容的沟通，北京户口貌似要抽签，工作节奏差不多 1095 或者 995。
+
+<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script>
+
+<script src="http://jerry-cdn.b0.upaiyun.com/hit-kounter/hit-kounter-lc-0.2.0.js"></script>
+
+<span data-hk-page="current"> - </span>
