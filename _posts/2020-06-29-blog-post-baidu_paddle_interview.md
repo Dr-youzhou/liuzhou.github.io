@@ -9,7 +9,7 @@ tags:
 toc: true
 ---
 
-真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
+<!-- 真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。 -->
 
 <!--
 <div class="visited_number">
@@ -19,7 +19,7 @@ toc: true
 </div> -->
 
 <div class="button01">
-      <visited_a href="#"><span data-hk-page="current"> - </span></visited_a>
+      终于等到你，<visited_a href="#">你是第<span data-hk-page="current"> - </span>个访客~</visited_a>
       <visited_p class="top">٩(๑^o^๑)۶</visited_p>
       <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
 </div>

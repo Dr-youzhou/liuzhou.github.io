@@ -76,11 +76,10 @@ He received his bachelor's degree in computer science from the School of Compute
 
 [穆亚东](http://www.muyadong.com) (Yadong Mu), Peking University, China
 
-## Others
+## Welcome
 
+<div >
 Welcome to my homepage, you are the <span data-hk-site> - </span>th visitor!
-
-<div class="aui-row">
-<span data-hk-page="current"> - </span>
-<img align="center" width="200" src="{{ site.url }}/images/static/visited.gif" alt="">
+<span data-hk-page="current" display:inline> - </span>
+<img align="center" width="200" src="{{ site.url }}/images/static/visited.gif" alt="" display:inline>
 </div>
