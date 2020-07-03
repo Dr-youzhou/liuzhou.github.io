@@ -9,6 +9,11 @@ tags:
 toc: true
 ---
 
+<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+<script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script>
+
+本文已经被<span data-hk-page="current"> - </span>人临幸啦~
+
 ## Baidu，深度学习平台部(PaddlePaddle)
 
 - 部门概况：主要负责百度深度学习平台 PaddlePaddle 的开发，生态的构建相关工作。包括分布式开发，底层框架开发完善，工程优化，最新的模型的复现。总体团队规模 100 多人。
@@ -261,10 +266,3 @@ int main() {
 
 <!-- <script src="https://cdn1.lncld.net/static/js/av-mini-0.6.10.js"></script>
 <script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script> -->
-
-test
-
-<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
-<script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script>
-
-<span data-hk-page="current"> - </span>
