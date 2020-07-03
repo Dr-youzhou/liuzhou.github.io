@@ -9,8 +9,6 @@ tags:
 toc: true
 ---
 
-<script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
-<script src="https://jerryz.sgp1.cdn.digitaloceanspaces.com/lib/hit-kounter/hit-kounter-lc-0.3.0.js"></script>
 
 真幸运，你是第<span data-hk-page="current"> - </span>个找到这个页面的人。
 
