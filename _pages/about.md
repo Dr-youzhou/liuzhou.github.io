@@ -79,6 +79,6 @@ He received his bachelor's degree in computer science from the School of Compute
 ## Welcome
 
 <div >
-Welcome to my homepage, you are the<span data-hk-page="current" display:inline> - </span>th visitor!
+Welcome to my homepage, you are the <span data-hk-page="current" display:inline> - </span>th visitor!
 <img align="center" width="200" src="{{ site.url }}/images/static/visited.gif" alt="" display:inline>
 </div>
