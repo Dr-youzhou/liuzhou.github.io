@@ -1,7 +1,7 @@
 ---
 title: 'Blog template(nothing to show)'
-date: 2000-00-00
-permalink: /posts/2000/00/blog_template/
+date: 2007-01-01
+permalink: /posts/2007/01/blog_template/
 categories:
   - Interview
 tags:
