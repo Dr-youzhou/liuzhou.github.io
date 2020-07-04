@@ -77,7 +77,8 @@ analytics:
     tracking_id:
 
 # Google Analytics
-google_analytics: UA-138327029-1
+google_analytics: UA-171582480-1
+
 
 # Site Author
 author:
