@@ -1,13 +1,25 @@
 ---
 title: '本科暑期实习面试经历'
 date: 2017-06-15
-permalink: /posts/2020/06/mytest/
+permalink: /posts/2017/06/tencent_interview/
 categories:
   - Interview
 tags:
   - Interview
 toc: true
 ---
+
+
+--- 
+
+<div class="button01">
+      <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
+      <visited_p class="top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div>
+
+
+
 
 ## 个人情况:
 
@@ -212,3 +224,7 @@ system("pause");
 - 最后就是保持一颗平常心，能够过面试就为接下来的继续努力，不能够过也要坦然接受。然后继续尝试其他的机会，毕竟世界上不是只有一条路，机会总是留给有准备的人的。
 
 好久没有手打那么多字了，这片面经就到此为止吧，可能还有一些不完善的，等我想起来再补充。希望能够给后面的同学带来一些帮助~
+
+---
+
+<div data-hk-top-pages="5"> </div>

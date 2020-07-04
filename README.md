@@ -28,9 +28,25 @@ YYYY-MM-DD-blog-post-xxxxxxnamexxxxx.md
 
 其中保存页面中的图片文件。可以通过如下方式引用：
 
-"
+```js
 <br />
 <img align="center" width="1000" src="{{ site.url }}/images/static/image_ste.jpg" alt="...">
 <br />
+```
 
-"
+
+## 谷歌网站访问分析以及统计人数的js文件路径存放在了如下文件中，从而自动导入每一个页面
+
+_includes\footer\custom.html
+该文件中还包含了人数统计的button的css配置
+
+
+## 页面访问人数统计
+通过如下标签可以在页面上添加一个当前访问人数统计的button
+``` js
+<div class="button01">
+      <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
+      <visited_p class="top">٩(๑^o^๑)۶</visited_p>
+      <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div>
+```
