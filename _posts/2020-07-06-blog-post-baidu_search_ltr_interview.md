@@ -37,7 +37,8 @@ toc: true
 
 - 中心极限定理记得吗？
 
-  - 。。。不记得 -[中心极限定理](https://baike.baidu.com/item/%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/829451?fr=aladdin)
+  - 。。。不记得
+  - [中心极限定理](https://baike.baidu.com/item/%E4%B8%AD%E5%BF%83%E6%9E%81%E9%99%90%E5%AE%9A%E7%90%86/829451?fr=aladdin)
 
 - 讲一下贝叶斯分类的原理？
 
