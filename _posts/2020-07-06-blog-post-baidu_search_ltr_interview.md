@@ -64,21 +64,29 @@ toc: true
 * 对排序了解吗，写一下快速排序的代码
 
 ```python
-def quick_sort(nums):
-    if len(nums)==0:
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        self.nums=nums
+        self.quick_sort(0,len(nums)-1)
+        return self.nums
+        
+    def quick_sort(self,left,right):
+        if left>=right:
+            return
+        cur=self.nums[left]
+        l=left
+        r=right
+        while r>l:
+            while r>l and self.nums[r]>=cur:
+                    r-=1
+            self.nums[l]=self.nums[r]
+            while l<r and self.nums[l]<=cur:
+                    l+=1
+            self.nums[r]=self.nums[l]
+        self.nums[l]=cur
+        self.quick_sort(left,l-1)
+        self.quick_sort(l+1,right)
         return
-    a=nums[0]
-    l=0
-    r=len(nums)-1
-    while l<r:
-        while l<r and nums[r]>=a:
-            r-=1
-        while l<r and nums[l]<=a:
-            l+=1
-        nums[l],nums[r]=nums[r],nums[l]
-    nums[l]=a
-    quick_sort(nums[:l])
-    quick_sort(nums[l+1:])
 ```
 
 - 给一个数组怎么找到其中较大的 k 个数
