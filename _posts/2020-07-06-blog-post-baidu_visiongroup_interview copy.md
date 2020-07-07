@@ -11,12 +11,14 @@ toc: true
 
 ---
 
+<div>
 <div class="button01">
       <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
       <visited_p class="top">٩(๑^o^๑)۶</visited_p>
       <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
 </div>
-
+<img align="center" width="200" src="{{ site.url }}/images/static/take_me.gif" alt="" display:inline>
+</div>
 ---
 
 ## 百度 视觉技术部 面试总结
@@ -79,13 +81,13 @@ def nms(boxes, confidence, threshold):
 
 ## 二面
 
-二面主要是在聊天，没有啥很细节的问题，大概30分钟就完了。
-- 对GAN的了解多不多，知道有哪些loss？
+二面主要是在聊天，没有啥很细节的问题，大概 30 分钟就完了。
+
+- 对 GAN 的了解多不多，知道有哪些 loss？
 - 对视频相关的工作了解的多不多
 - 目前有没有在投其他的公司
 - 来百度的意愿有多大
 - 对以后做什么方向有没有很强的要求
-
 
 ---
 
