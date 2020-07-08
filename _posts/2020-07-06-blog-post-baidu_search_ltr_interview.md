@@ -10,6 +10,8 @@ toc: true
 ---
 
 ---
+
+---
 <div>
 <div class="button01">
       <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
@@ -155,6 +157,13 @@ def sqrt(num: int) -> bool:
         pre_x=cur_x
     return cur_x
 ```
+
+
+
+## 二面
+
+二面主要是讲了自己的两篇论文，然后展示了一些demo，然后就论文里的一些内容和面试官做了一些交流。
+问了一下自己未来的工作方向的打算，然后聊了一下部门正在做的事情等。总体比较轻松45分钟左右结束。
 
 ---
 
