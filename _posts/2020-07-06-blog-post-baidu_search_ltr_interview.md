@@ -1,5 +1,5 @@
 ---
-title: '2020秋招提前批-百度搜索架构部LTR部门-面试总结'
+title: '2020秋招提前批-百度搜索策略部LTR部门-面试总结'
 date: 2020-07-06
 permalink: /posts/2020/07/baidu_search_ltr_interview/
 categories:
@@ -12,6 +12,7 @@ toc: true
 ---
 
 ---
+
 <div>
 <div class="button01">
       <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
@@ -22,7 +23,7 @@ toc: true
 </div>
 ---
 
-## 百度搜索架构部，LTR 部门面试总结
+## 百度搜索策略部，LTR 部门面试总结
 
 部门概况，搜索的推荐自然排序算法。LTR（learning to rank）。主要负责自然结果的排序，然后后续会有加入一些商业结果和其他结果变成最终展现出来的样子。
 团队目前 15 人左右，目前也会用一些 NN 的方法进行 feature 提取然后排序。搜索和推荐不太一样，搜索的时候很多是有人工的 tag 标注的。
@@ -72,7 +73,7 @@ class Solution:
         self.nums=nums
         self.quick_sort(0,len(nums)-1)
         return self.nums
-        
+
     def quick_sort(self,left,right):
         if left>=right:
             return
@@ -158,12 +159,10 @@ def sqrt(num: int) -> bool:
     return cur_x
 ```
 
-
-
 ## 二面
 
-二面主要是讲了自己的两篇论文，然后展示了一些demo，然后就论文里的一些内容和面试官做了一些交流。
-问了一下自己未来的工作方向的打算，然后聊了一下部门正在做的事情等。总体比较轻松45分钟左右结束。
+二面主要是讲了自己的两篇论文，然后展示了一些 demo，然后就论文里的一些内容和面试官做了一些交流。
+问了一下自己未来的工作方向的打算，然后聊了一下部门正在做的事情等。总体比较轻松 45 分钟左右结束。
 
 ---
 
