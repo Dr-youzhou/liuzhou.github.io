@@ -12,11 +12,13 @@ toc: true
 ---
 
 ---
-
+<div>
 <div class="button01">
       <visited_a href="#" display:inline>你是第<span data-hk-page="current"> - </span>位访客~</visited_a>
       <visited_p class="top">٩(๑^o^๑)۶</visited_p>
       <visited_p class="bottom">Σ(っ °Д °;)っ被你发现了！</visited_p>
+</div>
+<img align="center" width="100" src="{{ site.url }}/images/static/take_me.gif" alt="" display:inline>
 </div>
 ---
 
