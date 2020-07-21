@@ -1,5 +1,5 @@
 ---
-title: '2020秋招提前批-百度PaddlePaddle平台部-面试总结'
+title: '2021秋招提前批-百度PaddlePaddle平台部-面试总结'
 date: 2020-06-29
 permalink: /posts/2020/06/baidu_paddle_interview/
 categories:

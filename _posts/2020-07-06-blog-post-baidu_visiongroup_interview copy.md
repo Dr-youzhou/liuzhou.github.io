@@ -1,5 +1,5 @@
 ---
-title: '2020秋招提前批-百度视觉技术部-面试总结'
+title: '2021秋招提前批-百度视觉技术部-面试总结'
 date: 2020-07-07
 permalink: /posts/2020/07/baidu_visiongroup_interview/
 categories:

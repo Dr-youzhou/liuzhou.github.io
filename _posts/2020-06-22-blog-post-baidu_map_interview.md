@@ -1,5 +1,5 @@
 ---
-title: '2020秋招提前批-百度自动驾驶高精地图部门-面试总结'
+title: '2021秋招提前批-百度自动驾驶高精地图部门-面试总结'
 date: 2020-06-22
 permalink: /posts/2020/06/baidu_map_interview/
 categories:

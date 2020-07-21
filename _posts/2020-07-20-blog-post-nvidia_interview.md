@@ -1,5 +1,5 @@
 ---
-title: '2020秋招-NVIDIA-AI工程师-面试总结'
+title: '2021秋招-NVIDIA-AI工程师-面试总结'
 date: 2020-07-20
 permalink: /posts/2020/07/nvidia_interview/
 categories:

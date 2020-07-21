@@ -1,5 +1,5 @@
 ---
-title: '2020秋招提前批-百度搜索策略部LTR部门-面试总结'
+title: '2021秋招提前批-百度搜索策略部LTR部门-面试总结'
 date: 2020-07-06
 permalink: /posts/2020/07/baidu_search_ltr_interview/
 categories:

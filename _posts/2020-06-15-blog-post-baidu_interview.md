@@ -1,5 +1,5 @@
 ---
-title: '2020秋招提前批-百度ACG智能制造部门-面试总结'
+title: '2021秋招提前批-百度ACG智能制造部门-面试总结'
 date: 2020-06-20
 permalink: /posts/2020/06/interview/
 categories:
