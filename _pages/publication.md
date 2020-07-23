@@ -55,7 +55,7 @@ Please [email me](yongzhili@pku.edu.cn) if you require a copy of the paper.
    _"Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification"_,
    IEEE International Conference on Multimedia and Expo (ICME) 2020. [Link](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
 
-1. $Xinyu Weng^{\dagger}$, **$Yongzhi Li^{\dagger}$**, Lu Chi, Yadong Mu,
+1. Xinyu Weng<sup>1</sup>, **Yongzhi Li<sup>1</sup>**, Lu Chi, Yadong Mu,
    _"High-Capacity Convolutional Video Steganography with Temporal Residual Modeling"_,
    ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf) [[Bibtext](https://dl.acm.org/doi/abs/10.1145/3323873.3325011)]
 
