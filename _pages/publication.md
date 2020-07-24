@@ -49,15 +49,15 @@ Please [email me](yongzhili@pku.edu.cn) if you require a copy of the paper.
 
 1. **Yongzhi Li**, Duo Zhang, Yadong Mu,
    _"Visual-Semantic Matching by Exploring High-Order Attention and Distraction"_,
-   IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Link](http://openaccess.thecvf.com/content_CVPR_2020/html/Li_Visual-Semantic_Matching_by_Exploring_High-Order_Attention_and_Distraction_CVPR_2020_paper.html)
+   IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020. [Link](http://openaccess.thecvf.com/content_CVPR_2020/html/Li_Visual-Semantic_Matching_by_Exploring_High-Order_Attention_and_Distraction_CVPR_2020_paper.html)[[Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:xQchwXNXKCcJ:scholar.google.com/&output=citation&scisdr=CgWjKt5oEL6qpOrtKaY:AAGBfm0AAAAAXxroMaaCm1WT6qbXeMCmprWR3nl3Qov4&scisig=AAGBfm0AAAAAXxroMY8QyJORL4oJN7C5bdhKpOtQsKjt&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 1. **Yongzhi Li**, Lu Chi, Guiyu Tian, Yadong Mu, Shen Ge, Zhi Qiao, Xian Wu, Wei Fan,
    _"Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification"_,
-   IEEE International Conference on Multimedia and Expo (ICME) 2020. [Link](http://www.muyadong.com/paper/ICME20_LYZ.pdf)
+   IEEE International Conference on Multimedia and Expo (ICME) 2020. [Link](http://www.muyadong.com/paper/ICME20_LYZ.pdf) [[Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:x74s3SOmMT0J:scholar.google.com/&output=citation&scisdr=CgWjKt5oEL6qpOriYkM:AAGBfm0AAAAAXxrnekPG5kVtDQ3s7nOhCjIvW2z-35hf&scisig=AAGBfm0AAAAAXxrneuU1Gu8HQtQ1M8blWQAi6bGaIQTq&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 1. Xinyu Weng<sup>†</sup>, **Yongzhi Li<sup>†</sup>**, Lu Chi, Yadong Mu,
    _"High-Capacity Convolutional Video Steganography with Temporal Residual Modeling"_,
-   ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf) [[Bibtext](https://dl.acm.org/doi/abs/10.1145/3323873.3325011)]
+   ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)** [Link](http://www.muyadong.com/paper/icmr009-wengA.pdf) [[Bibtext](https://scholar.googleusercontent.com/scholar.bib?q=info:o4wDKaeQEcoJ:scholar.google.com/&output=citation&scisdr=CgWjKt5oEL6qpOrtd1M:AAGBfm0AAAAAXxrob1Mf3p9nOchRpaGSiun6Clzms_I4&scisig=AAGBfm0AAAAAXxrobyqlfLRz_ZTb140DNfzE6rrO8GwU&scisf=4&ct=citation&cd=-1&hl=zh-CN)]
 
 <!--
 1. Yun Wen, Makoto Yoshida, **Junqing Zhang**, Zheng Chu, Pei Xiao, and Rahim Tafazolli, “Machine Learning Based Attack Against Artificial Noise-aided Secure Communication,” in _Proc. IEEE ICC_, Shanghai, China, May 2019.
