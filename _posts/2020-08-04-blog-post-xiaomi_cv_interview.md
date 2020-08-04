@@ -69,8 +69,8 @@ def sobel(img,dx,dy):
     dx=np.reshape(1,-1)
     dy=np.reshape(1,-1)
 
-    for i in range(n):
-        for j in range(m):
+    for i in range(1,n+1):
+        for j in range(1,m+1):
             ''' for循环版本
             tx=0
             ty=0
