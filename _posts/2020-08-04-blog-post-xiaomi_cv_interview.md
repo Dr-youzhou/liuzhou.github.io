@@ -99,7 +99,7 @@ def sobel(img,dx,dy):
 
 - 霍夫变换直线检测的原理。
   - 只依稀记得是转换到极坐标系下然后进行投票
-  - [霍夫变换直线检测](https://www.cnblogs.com/cheermyang/p/5348820.html)
+  - [霍夫变换直线检测](https://blog.csdn.net/leonardohaig/article/details/87907462)
 
 * 多条线段怎么判断是否组成一个矩形。
 
