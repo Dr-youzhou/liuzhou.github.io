@@ -1,7 +1,7 @@
 ---
 title: '2021秋招-幻方量化-深度学习-面试总结'
 date: 2020-08-09
-permalink: /posts/2020/08/xiaomi/
+permalink: /posts/2020/08/huanfanglianghua/
 categories:
   - Interview
 tags:
