@@ -41,6 +41,7 @@ toc: true
   - [FocalLoss](https://blog.csdn.net/like_study_cat/article/details/107750540)
 
 - 算法题
+
 ```python
 '''
 实现softmax，需要注意溢出的问题
@@ -60,7 +61,8 @@ if __name__ == "__main__":
 ```
 
 - 算法题
-``` python
+
+```python
 '''
 实现一个鲁棒的开根号函数
 '''
@@ -79,6 +81,5 @@ def sqrt(n):
     return pre
 
 ```
-
 
 <div data-hk-top-pages="5"> </div>
