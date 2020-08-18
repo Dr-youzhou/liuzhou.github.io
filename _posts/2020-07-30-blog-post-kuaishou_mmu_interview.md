@@ -36,7 +36,7 @@ toc: true
 - 逻辑回归和 XGBoost 有什么异同？
 
   - 都是做分类的模型，逻辑回归的话是线性模型，通过对特征的线性组合然后通过 sigmoid 激活函数来预测一个 0-1 之间的概率值
-  - XGboost 是树模型，通过 Boosting 策略不断提升。
+  - XGboost 是树模型，通过 Boosting 策略不断提升。XGboost还可以拿来做回归问题。
 
 - 逻辑回归的 Loss 函数
 
