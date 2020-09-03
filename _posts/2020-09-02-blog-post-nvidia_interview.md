@@ -113,7 +113,7 @@ toc: true
   - $\frac{\partial{MSE}}{\partial{w}} = -2(y-sig)*\frac{\partial{sig}}{\partial{w}} = -2 (y-sig)*sig*(1-sig)*x $
   - 在使用MSE作为分类的loss的时候，无论sigmoid函数输出是接近0还是接近1，loss都会很小，不利于训练。
   - $CrossEntropyLoss= -ylog(sig) - (1-y)log(1-sig)$
-  - $\frac{\partial{CE}}{\partial{W}}=(\frac{-y}{sig} + \frac{(1-y)}{1-sig})* \frac{\partial{sig}}{\partial{W}} \\= \frac{sig(1-y)- y(1-sig)}{sig(1-sig)}* sig*(1-sig)*x \\=(sig- sig*y -y + sig*y)*x \\ =(sig-y) * x $
+  - $\frac{\partial{CE}}{\partial{W}}=(\frac{-y}{sig} + \frac{(1-y)}{1-sig})* \frac{\partial{sig}}{\partial{W}} = \frac{sig(1-y)- y(1-sig)}{sig(1-sig)}* sig*(1-sig)*x =(sig- sig*y -y + sig*y)*x  =(sig-y) * x $
 
 - 极大似然估计讲一下，交叉熵 Loss 和极大似然估计的关系。
 
