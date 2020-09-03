@@ -100,11 +100,20 @@ toc: true
 - 有哪些 Loss Function
 
 - python 中 tuple 和 list 有啥区别？
+
 - python 中函数对参数 x 进行修改之后，在底层是发生了什么？
 
 - 为什么分类问题使用交叉熵的 Loss，而不是使用 MSE loss？
 
   - 因为 MSE 针对分类问题的时候他是一个非凸优化问题，而对于交叉熵来说是一个凸优化的问题。
+  
+- MSE和Cross Entropy Loss的梯度的计算。
+  - 令$sig= \frac{1}{1-e^{wx+b}}$
+  - $MSELoss= (y-sig)^2$
+  - $\frac{\partial{MSE}}{\partial{w}} = -2(y-sig)*\frac{\partial{sig}}{\partial{w}} = -2 (y-sig)*sig*(1-sig)*x $
+  - 在使用MSE作为分类的loss的时候，无论sigmoid函数输出是接近0还是接近1，loss都会很小，不利于训练。
+  - $CrossEntropyLoss= -ylog(sig) - (1-y)log(1-sig)$
+  - $\frac{\partial{CE}}{\partial{W}}=(\frac{-y}{sig} + \frac{(1-y)}{1-sig})* \frac{\partial{sig}}{\partial{W}} \\= \frac{sig(1-y)- y(1-sig)}{sig(1-sig)}* sig*(1-sig)*x \\=(sig- sig*y -y + sig*y)*x \\ =(sig-y) * x $
 
 - 极大似然估计讲一下，交叉熵 Loss 和极大似然估计的关系。
 
@@ -148,7 +157,8 @@ toc: true
 
   - 大致思路是每台机器放置 1/4 行 和 1/4 列的数据，然后对列数据进行计算然后依次交换，最后将结果整合。
 
-- 写出 MLP 的公式，并计算他的梯度。
+- 写出 MLP 的公式，并计算他的梯度并更新参数。
+  - 先计算出梯度g，然后w_t= w_(t-1) - a*g
 
 - 全数据集作为batch，mini-batch，单个样本的SGD 分别有什么优点和缺点？
   - batch越大收敛越快，但是大到一定程度更可能收敛到比较sharp的局部最优解，导致泛化能力下降。同时消耗更多的内存。
