@@ -73,7 +73,7 @@ toc: true
 
 - 缓解模型过拟合的方法有哪些？
 
-  - 数据增强，BN，drop out，lr warm-up，early stop
+  - 数据增强，BN，drop out，lr warm-up，early stop, 参数正则化。
 
 - 为什么 drop out 能够缓解过拟合问题？
 
@@ -154,6 +154,7 @@ toc: true
   - batch越大收敛越快，但是大到一定程度更可能收敛到比较sharp的局部最优解，导致泛化能力下降。同时消耗更多的内存。
   - 单个样本的SGD的梯度随机性太大，可能会导致来回震荡，收敛慢，甚至无法收敛。
   - mini SGD是比较合理且常用的策略。
+  - [Link](https://www.zhihu.com/question/32673260)
 
 - 数学问题：
 
