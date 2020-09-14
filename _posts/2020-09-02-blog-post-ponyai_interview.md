@@ -96,7 +96,7 @@ def func(nums,k):
         if right < result - 1:
             break
         t_sum = pre_sum[right] - pre_sum[left] + nums[left]  # why add nums[right]
-        if t_sum + k <= (right - left + 1) * nums[right]:
+        if t_sum + k >= (right - left + 1) * nums[right]:
             result = max(result, (right - left + 1))
             left -= 1
         else:
