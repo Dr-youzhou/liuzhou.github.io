@@ -338,9 +338,10 @@ def func(nums):
 
 - 二分类的时候，使用 sigmoid 激活函数为啥不能用 MSE loss？从梯度的角度解释一下
   - 手推公式的题目
+  - 令 $sig =  \frac{1}{1-e^{-wx+b}}$
   - $loss= (y-sig)^2 $
-  - $ \frac{\partial{loss}}{\partial{x}} = 2(y-sig)* \frac{\partial{sig}}{\partial{x}}$
-  - $ =2(y-sig)*(1-sig)(sig))$
+  - $ \frac{\partial{loss}}{\partial{x}} = -2(y-sig)* \frac{\partial{sig}}{\partial{w}}$
+  - $ =-2(y-sig)*(1-sig)(sig)x$
   - 存在的问题在于首先 sigmoid 输出趋近与 0 或者趋近 1 是梯度信息很小，容易产生梯度消失的问题。
   - 当 y=1 时，即使 sig 输出是 0 其 loss 导致的惩罚梯度也很小，惩罚不够。
 
