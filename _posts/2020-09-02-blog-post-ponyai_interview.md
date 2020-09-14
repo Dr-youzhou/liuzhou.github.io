@@ -23,14 +23,14 @@ toc: true
 </div>
 ---
 
-## 2021秋招 小马智行 面经
+## 2021 秋招 小马智行 面经
 
 部门概况：根据背景面试官表示可能回去感知组。
 
 ## 一面（2020 年 9 月 02 日）
 
 - 自我介绍
-- 简单介绍了一下CVPR的论文
+- 简单介绍了一下 CVPR 的论文
 
 - 算法题
 
@@ -41,7 +41,7 @@ toc: true
 '''
 
 ###### 想了个Nlog（N）的，先对所有的点按照x轴坐标排序，然后连续的三个点就有可能是满足条件的点。但是需要判断一下多个点是否共线这种情况。
-def func(points): 
+def func(points):
     points.sort(key=lambda x:x[0])
     for i in range(len(points)-2):
         j=i+1
@@ -59,6 +59,119 @@ def func(points):
     return []
 
 # PS:面试官表示还有O(N)的做法，首先选三个不共线的点组成原始的三角形，然后依次扫描其他的点，如果他们是在三角形的外部则直接跳过，否则的话该点替换掉其中的一个点，最后所有的点都判断完毕之后得到的三角形上的三个点也满足题目要求。
+```
+
+## 二面（2020 年 9 月 14 日）
+
+- 自我介绍
+- 简单介绍了一下在阿里的实习工作
+- 算法题
+
+```python
+'''
+给定一个包含int数据的数组，和一个整数k。 每一次可以对数组中的一个数进行加一操作，最多可以做k次操作，k可以不用完。
+希望能够使数组中相同的数字数目最多（也就是众数的数目最大），返回这个最大值
+
+例如：
+{1,2,4,4}  k=2 可以操作得到->{1,4,4,4}, 因此结果为3
+'''
+
+
+## 思路是先对数组排序，然后用一个左右指针表示的区间内的数字调整到区间内的最大值
+# 如果区间内的和+k >= 区间最大值* 区间数目，则当前区间可以在不多于k次的操作下调整到相同的值，此时更新结果并，左移left指针
+# 否则的话左移right指针
+# 直到左指针小于0时终止循环。
+def func(nums,k):
+    nums.sort()
+
+    pre_sum = [nums[0]]
+    for i in range(1, len(nums)):
+        cur_sum = pre_sum[-1] + nums[i]
+        pre_sum.append(cur_sum)
+
+    left = len(nums) - 1
+    right = len(nums) - 1
+    result = 1
+    while left >= 0 and right >= 0:
+        if right < result - 1:
+            break
+        t_sum = pre_sum[right] - pre_sum[left] + nums[left]  # why add nums[right]
+        if t_sum + k <= (right - left + 1) * nums[right]:
+            result = max(result, (right - left + 1))
+            left -= 1
+        else:
+            right -= 1
+
+    return result
+```
+
+- 面试官是感知组的，主要做激光雷达三维点云的，在自动驾驶领域，比如下雨的时候雨会对激光测距造成干扰如何处理是一个比较困难的问题。
+
+## 三面 （2020 年 9 月 14 日）
+
+- 自我介绍
+- 介绍在腾讯实习的时候做的工作
+- 介绍在阿里实习的时候做的工作
+- 算法题
+
+```python
+'''
+给定一个n*m的二维格点地图, 每个位置要么是字符’.’表示空地, 要么是’@’表示有敌人在这里. 规定给定一个d(1 <= d <= min(m, n)), 如果一个d*d的区域内没有任何敌人, 则认为这片区域是安全的.
+问给定的地图中有多少个这样安全的区域.
+'''
+
+## 二维前缀和，将原始的地图转换成01矩阵，然后t_sum[i][j] 保存从（0,0） 到 （i，j）的矩形中所有元素的和
+## 然后遍历二维矩阵 利用前缀和 计算以(i,j)作为左上角的d*d的区域内的元素和，如果是0，说明是安全区+1
+## 总体时间复杂度 O(N*M)
+
+def convert(data): # 转换成01矩阵
+    n=len(data)
+    m=len(data[0])
+    matrix=[[0]*m for i in range(n)]
+    for i in range(n):
+        for j in range(m):
+            if data[i][j]=='@':
+                matrix[i][j]=1
+    return matrix
+
+
+def func(matrix,d):
+    n=len(matrix)
+    m=len(matrix[0])
+
+    t_sum=[[0]*m for i in range(n)]
+
+    for j in range(m):
+        t_sum[0][j]=t_sum[0][j-1]+matrix[0][j]
+
+    for i in range(1,n):
+        t_sum[i][0]=t_sum[i-1][0]+matrix[i][0]
+
+    for i in range(1,n):
+        for j in range(1,m):
+            t_sum[i][j]=t_sum[i][j-1]+t_sum[i-1][j]-t_sum[i-1][j-1]+matrix[i][j]
+
+    result=1
+    for i in range(n):
+        if i+d>=n:
+            break
+        for j in range(m):
+            if j+d>=m:
+                break
+            ni=i+d
+            nj=j+d
+            if i==0 and j==0:
+               	tmp=t_sum[ni][nj]
+            elif i==0:
+                tmp=t_sum[ni][nj]-t_sum[ni][j-1]
+            elif j==0:
+                tmp=t_sum[ni][nj] -t_sum[i-1][nj]
+            else:
+            	tmp=t_sum[ni][nj]-t_sum[ni][j-1]-t_sum[i-1][nj]+t_sum[i-1][j-1]
+
+            if tmp==0:
+                result+=1
+    return result
 ```
 
 <div data-hk-top-pages="5"> </div>
