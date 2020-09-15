@@ -46,13 +46,13 @@ def func(points):
     for i in range(len(points)-2):
         j=i+1
         k=i+2
-        xs=set([p[0] for p in points[i:i+3]])
+        xs=[p[0] for p in points[i:i+3]]
         ys=[p[1] for p in points[i:i+3]]
-        if len(xs)==1:
+        if len(set(xs))==1:
             continue
         elif len(xs)==2:
             return points[i:i+3]
-        if len(set(ys))==1:
+        if len(set(ys))==1 or (ys[1]-ys[0] )/(xs[1]-xs[0]) == (ys[2]-ys[0])/(xs[2]-xs[0]):
             continue
         else:
             return points[i:i+3]
