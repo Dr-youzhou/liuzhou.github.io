@@ -60,6 +60,8 @@ if __name__=='__main__':
 
 - 实现一下 resnet 的 basic block
 
+- Git 有哪些操作？
+
 ```python
 class BasicBlock(nn.Module):
     expansion = 1
