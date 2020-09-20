@@ -126,11 +126,11 @@ def func1(p,plist):
         p1=plist[i-1]
         p2=plist[i]
         if tx is not None and ty is not None:
-            if tx=='#' and ty=='#' and is_in(p,p1,p2):
+            if tx=='#' and ty=='#' and is_in_segment(p,p1,p2):
                 return True
             if tx<a:
                 continue
-            flag=is_in((tx,ty),p1,p2)
+            flag=is_in_segment((tx,ty),p1,p2)
             if flag:
                 set.add((tx,ty))
     return True if len(cnt)&1==1 else False
