@@ -94,4 +94,61 @@ def func(matrix,a,b,c,d):
 - 讲了一下论文。
 - 讲了一下阿里实习的工作。
 
+## 二面 （2020年9月24日）
+
+- 数学题： 一个很大的文件可能好几十个G，如何随机的取出其中的一行。
+  - 蓄水池抽样问题。 对于第一行直接选择放在内存中，后面的第n行以1/n的概率选择保留下来替换内存中的那一行，所有的行处理完之后留在内存中的就是随机采样的结果。
+
+- 数学题： 一个红绿灯只有红色和绿色两种状态，相互切换，一天中有N辆车路过该路口，记录下来他们的等红灯时间，推算红灯 和 绿灯分别的时间长度。
+  - 我给出的答案是，首先选择N个记录中非零的值假设有 a个，0的值设有b个， 假设红灯的时间长度是x秒，那么如果N足够大的情况下等红灯的时间长度应该是在0-x之间的均匀分布。因此a辆车等红灯的时间长度的和 应该是（0+x)\*n/2 那么这个值应该是等于所有a个值的和， 所以有$\frac{(0+x)n}{2} =  \sum_i=1^a a_i$ 。通过这个公式可以求出x，那么绿灯时间长度应该是$\frac{x}{a} \* b$。
+  - 但是面试官表示这样求出的x应该是小于$max(a_i)$的，但是实际上的红灯时间应该是大于等于$max(a_i)$的，好像也有道理。但是当N趋于无穷的时候这两个值应该是趋于相同。
+
+- 算法题
+
+``` python
+'''
+往一个完全二叉树中插入一个结点，保持其仍然是一个完全二叉树
+'''
+
+def insert_tree(root,val):
+  if root is None:
+    return TreeNode(val)
+  if is_full_tree(root):
+    p=root
+    while p.left is not None:
+      p=p.left
+    p.left=TreeNode(val)
+  else:
+    if is_full_tree(root.left):
+      insert_tree(root.right,val)
+    else:
+      insert_tree(root.left,val)
+  return root
+
+def is_full_tree(root):
+  if root is None:
+    return False
+  l=get_depth(root,1)
+  r=get_depth(root,-1)
+  if l==r:
+    return True
+  else:
+    return False
+
+
+def get_depth(root,flag):
+  if root is None:
+    return 0
+  if flag==1:
+    return 1+get_depth(root.left,flag)
+  elif flag==-1:
+    return 1+ get_depth(root.right,flag)
+```
+
+- 上面的算法时间复杂度是多少
+ - （log（N））^2
+
+- 证明 $ (log(N))^2 < N $
+  
+
 <div data-hk-top-pages="5"> </div>
