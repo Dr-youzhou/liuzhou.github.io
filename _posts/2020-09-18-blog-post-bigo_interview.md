@@ -60,7 +60,7 @@ def func(matrix,a,b,c,d):
     while len(min_heap)>0:
         cur_dist,x,y=heapq.heappop(min_heap)
 
-        if cur_dist>=dist[x][y]:
+        if cur_dist>dist[x][y]:
             continue
 
         for dx,dy in directions:
