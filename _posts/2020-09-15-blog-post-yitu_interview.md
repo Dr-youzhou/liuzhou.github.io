@@ -126,4 +126,79 @@ if __name__=='__main__':
     print(result)
 ```
 
+## 另外一个部门一面（2020 年 10 月 9 日）
+
+- 自我介绍
+- 算法题
+
+```python
+'''
+给一个二维矩阵，其中有0-1两种值，1表示该像素是人脸，0表示是背景，画面中可能会有多张人脸信息，返回最大的人脸所占的像素个数。
+
+
+经典BFS，或者DFS
+'''
+matrix=None
+n=None
+m=None
+
+def bfs(i,j):
+    global matrix,n,m
+    q=[(i,j)]
+    matrix[i][j]=-1
+    cnt=0
+    directions=[(-1,0),(1,0),(0,-1),(0,1)]
+    while len(q)>0:
+        tq=[]
+        for x,y in q:
+            cnt+=1
+            for dx,dy in directions:
+                nx=x+dx
+                ny=y+dy
+                if nx>=0 and nx<n and ny>=0 and ny<m and matrix[nx][ny]==1:
+                    matrix[nx][ny]=-1
+                    tq.append((nx,ny))
+        q=tq
+    return cnt
+
+def main(data):
+    global  matrix,n,m
+    n=len(data)
+    if n==0:
+        return 0
+    m=len(data[0])
+    if m==0:
+        return 0
+    matrix=data
+
+    result=0
+    for i in range(n):
+        for j in range(m):
+            if matrix[i][j]==1:
+                cur=bfs(i,j)
+                result=max(result,cur)
+    return result
+
+if __name__=='__main__':
+    #data=[[0,1,1,0],[0,1,1,0],[0,0,0,1],[0,0,0,1]]
+    data=[]
+    for i in range(3):
+        t=input()
+        t=[int(x) for x in t.split()]
+        data.append(t)
+    result=main(data)
+    print(result)
+```
+
+- C++中 vector 会初始分配一块空间，当 push_back 达到一定程度的时候会进行扩容，这个过程是怎么样的，平均下来每次 push_back 的时间复杂度是多少。
+
+  - 当初始空间满了的时候会申请一块 2 倍大小的新空间，然后将原始的数据一个个拷贝到新的空间里。平均下来每次 push_back 的时间复杂度是 O(1),证明如下：
+  - 设长度为 N 的空间需要移动的元素次数是 T(N)，则其其中一半是由上一步所有的元素拷贝过来的次数，以及剩下的空间的 push_back 的次数，所以有递推公式：
+  - T(N)=N+T(N/2) = N + N/2 + N/4 + ... + 1 , 总共有 log_2(N) + 1 项。
+  - 则这是一个以 1 为初始，2 为倍数的等比数列求和。
+  - T(N) = 1 \* (1-2^(log_2(N)+1)) / (1-2) = 2N - 1 = O(N)
+  - 所以平均下来每个元素的 push_back 操作的时间复杂度是 O(1)的。
+
+- 简单介绍了一下论文。
+
 <div data-hk-top-pages="5"> </div>
