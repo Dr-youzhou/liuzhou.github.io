@@ -201,4 +201,54 @@ if __name__=='__main__':
 
 - 简单介绍了一下论文。
 
+## 二面（2020 年 10 月 13 日）
+
+- 自我介绍
+- 算法题
+
+```python
+'''
+输入： N 个数和 target
+输出：找出 N 个数中所有连续区间和等于 target
+case:
+输入：1 1 2 2 1 1 3 3 4 5 6 ， target=4
+输出
+5
+0 2
+2 3
+3 5
+5 6
+8 8
+'''
+def func(nums,target):
+    if len(nums)==0:
+        return []
+    result=[]
+    cache={}
+    pre_sum=0
+    for i,n in enumerate(nums):
+        cur_sum=pre_sum+n
+        key=cur_sum-target
+        if cur_sum==target:
+            result.append((0,i))
+        if key in cache:
+            for begin in cache[key]:
+                result.append([begin+1,i])
+        if cur_sum not in cache:
+            cache[cur_sum]=[]
+        cache[cur_sum].append(i)
+        pre_sum=cur_sum
+    return result
+
+if __name__=='__main__':
+    nums=[0,0,4,0,0]
+    target=4
+    result=func(nums,target)
+    print(len(result))
+    for u,v in result:
+        print(u,' ',v)
+```
+
+- 讲解了一下 CVPR 的论文
+
 <div data-hk-top-pages="5"> </div>
