@@ -76,7 +76,7 @@ def pre_order(root):
     result=[]
     stack=[]
     cur=root
-    while cur is not None and len(stack)>0:
+    while cur is not None or len(stack)>0:
         while cur is not None:
             stack.append(cur)
             result.append(cur.val)
@@ -90,7 +90,7 @@ def in_order(root):
     result=[]
     stack=[]
     cur=root
-    while cur is not None and len(stack)>0:
+    while cur is not None or len(stack)>0:
         while cur is not None:
             stack.append(cur)
             cur=cur.left
@@ -103,7 +103,7 @@ def post_order(root):
     result=[]
     stack=[]
     cur=root
-    while cur is not None and len(stack)>0:
+    while cur is not None or len(stack)>0:
         while cur is not None:
             result.append(cur.val)
             stack.append(cur.right)
