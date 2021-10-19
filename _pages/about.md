@@ -23,17 +23,13 @@ And He received his bachelor's degree in computer science from the School of Com
 
 ## News
 
-- One paper accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020.
+- One paper accepted by IJCAI 2021.
 
-  [Visual-Semantic Matching by Exploring High-Order Attention and Distraction]({{ site.url }}/publication/)
+  [Learning 3-D Human Pose Estimation from Catadioptric Videos]({{ site.url }}/publication/)
 
-- One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2020.
+- One paper accepted by IEEE International Conference on Multimedia and Expo (ICME) 2021.
 
-  [Spectrally-Enforced Global Receptive Field for Contextual Medical Image Segmentation and Classification]({{ site.url }}/publication/)
-
-- One paper accepted by ACM International Conference on Multimedia Retrieval (ICMR) 2019. **(Oral Presentation)**
-
-  [High-Capacity Convolutional Video Steganography with Temporal Residual Modeling]({{ site.url }}/publication/)
+  [Efficient Fine-Grained Visual-Text Search Using Adversarially-Learned Hash Codes]({{ site.url }}/publication/)
 
 ## Research Area
 
