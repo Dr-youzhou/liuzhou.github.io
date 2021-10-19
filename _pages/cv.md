@@ -17,7 +17,10 @@ redirect_from:
 - Peking University, Data Science (computer vision), (Master degree), 2018-2021
 - Wuhan University, Computer Science and Technology, (Bachelor degree), 2014-2018
   - GPA: 3.83, Ranking: 1/38, CET-6: 571
+
+
 -----
+
 ## Work Experience
 
 
@@ -30,25 +33,38 @@ redirect_from:
 - **Algorithm Engineer Intern in New Retail Intelligent Engine Business Group, Alibaba Group**. (2020.6-2020.9)
 
   - Mainly responsible for Object Matting, Advertising Image Generation, Video Understanding.
+
   ---
+
+
 - **Winter Camp Intern in Google, China**. (2020.1-2020.2)
 
   - Completed an application that can transfer the human in a selfie into animation style and change the background at the same time. It mainly includes three modules: Human Matting, Face style translation and Background neural style transfer. It can synthesized the fine-grained animation human face into the style transferred background image to get a cartoonization photo.
   - Completed a program which can achieve real-time character foreground matting and background style transfer in video stream on Intel-i5 CPU.
+
   ---
+
 - **Research Intern in Medical AI Lab, Tencent**. (2018.7-2019.7)
 
   - Responsible for the research and development of the core module in the intelligent medical qualification examination system. The final model can score more than 390 points in the national medical qualification examination, which outperformed more than 70% of the human examinees.
   - Researched the automatic generation of medical diagnostic reports for chest X-rays.
+
   ---
+
+
 - **Engeering Intern in Tencent Cloud**. (2017.7-2017.9)
   - Responsible for the Panshi system decoupling and reconstruction. Separated the system’s web access layer from its data access layer; completed the modification of related data interfaces.
   - Developed and maintained the related functional plugins of the system.
+
+
   ---
+
+
 * **Exchange Student in Hong Kong Baptist University**. (2017.5-2017.6)
   - Researched on blockchain technology.
 
 -----
+
 ## Publications
 
 1. Chenchen Liu, **Yongzhi Li**, Kangqi Ma, Duo Zhang, Peijun Bao, Yadong Mu,   
