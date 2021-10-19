@@ -9,9 +9,11 @@ redirect_from:
 toc: true
 ---
 
-Yongzhi Li is a master student at the Machine Intelligence lab of Peking University, Beijing China. He is majored in computer vision and deep learning. His research work mainly involves in Cross modal retrieval, Deep Hashing, Medical AI, Steganography, and Image Captioning.
+Yongzhi Li is a computer vision algorithm engineer in ByteDance.Inc. He is mainly responsible for multi-modal research, as well as feature optimization and performance improvement of advertising systems.
 
-He received his bachelor's degree in computer science from the School of Computer Science in Wuhan University, Wuhan China.
+He received his master degree from Peking University, China under the supervsion of Prof. [Yadong Mu](http://www.muyadong.com). He is majored in computer vision and deep learning during that time. His research work mainly involves in Cross modal retrieval, Deep Hashing, Medical AI, Steganography, and Image Captioning.
+
+And He received his bachelor's degree in computer science from the School of Computer Science in Wuhan University, Wuhan China.
 
 <!-- Junqing Zhang is a Tenure Track Fellow (Assistant Professor) at the Department of Electrical Engineering and Electronics, the University of Liverpool, UK from Feb. 2018. His work mainly involves designing innovative and practical physical layer security solutions for future wireless technologies with ultra-low energy requirements but high security standards. He has been investigating wireless security solutions for a number of Internet of Things techniques, including IEEE 802.11a/g/ax, LoRa/LoRaWAN, ZigBee, etc, with a focus on the physical and MAC layers. -->
 
@@ -38,10 +40,13 @@ He received his bachelor's degree in computer science from the School of Compute
 - Computer Vision
 - Deep Learning
 - Cross-modal Retrieval/Matching
-- Medical AI
-- Video Steganography
+
 
 ## Experiences
+
+- **Computer Vision Algorithm Engineer in AILab, ByteDance.Inc**. (2021.7 - NAN)
+
+  - Mainly responsible for multi-modal research, as well as feature optimization and performance improvement of advertising systems.
 
 - **Algorithm Engineer Intern in New Retail Intelligent Engine Business Group, Alibaba Group**. (2020.6-2020.9)
 
@@ -70,11 +75,8 @@ He received his bachelor's degree in computer science from the School of Compute
 
 **Wechat**: lyz327067530
 
-**Adress**: Academy for Advanced interdisciplinary Studies,Peking University, Beijing, China .
+**Adress**: Someplace, Beijing, China .
 
-## Supervisor
-
-[穆亚东](http://www.muyadong.com) (Yadong Mu), Peking University, China
 
 ## Welcome
 
