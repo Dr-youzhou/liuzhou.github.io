@@ -9,11 +9,11 @@ redirect_from:
 toc: true
 ---
 
-Yongzhi Li is a computer vision algorithm engineer in ByteDance.Inc. He is mainly responsible for multi-modal research, as well as feature optimization and performance improvement of advertising systems.
+I am a computer vision algorithm engineer in ByteDance.Inc. I'm mainly responsible for multi-modal research, as well as feature optimization and performance improvement of advertising systems.
 
-He received his master degree from Peking University, China under the supervsion of Prof. [Yadong Mu](http://www.muyadong.com). He is majored in computer vision and deep learning during that time. His research work mainly involves in Cross modal retrieval, Deep Hashing, Medical AI, Steganography, and Image Captioning.
+I received the master degree from Peking University, China under the supervsion of Prof. [Yadong Mu](http://www.muyadong.com). And I'm majored in computer vision and deep learning during that time. My research work mainly involves in Cross modal retrieval, Deep Hashing, Medical AI, Steganography, and Image Captioning.
 
-And He received his bachelor's degree in computer science from the School of Computer Science in Wuhan University, Wuhan China.
+Before that, I received my bachelor's degree in computer science from the School of Computer Science in Wuhan University, Wuhan China.
 
 <!-- Junqing Zhang is a Tenure Track Fellow (Assistant Professor) at the Department of Electrical Engineering and Electronics, the University of Liverpool, UK from Feb. 2018. His work mainly involves designing innovative and practical physical layer security solutions for future wireless technologies with ultra-low energy requirements but high security standards. He has been investigating wireless security solutions for a number of Internet of Things techniques, including IEEE 802.11a/g/ax, LoRa/LoRaWAN, ZigBee, etc, with a focus on the physical and MAC layers. -->
 
