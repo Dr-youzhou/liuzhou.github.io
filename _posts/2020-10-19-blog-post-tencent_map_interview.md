@@ -22,6 +22,8 @@ toc: true
 <img align="center" width="100" src="{{ site.url }}/images/static/take_me.gif" alt="" display:inline>
 </div>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8633559477921171"
+     crossorigin="anonymous"></script>
 ---
 
 ## 腾讯地图 应用研究 面经
