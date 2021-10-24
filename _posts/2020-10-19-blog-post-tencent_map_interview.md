@@ -7,8 +7,6 @@ categories:
 tags:
   - Interview
 toc: true
-<script data-ad-client="ca-pub-8633559477921171" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 ---
 
 ---
