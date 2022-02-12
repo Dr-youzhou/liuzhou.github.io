@@ -24,7 +24,7 @@ Before that, I received my bachelor's degree in computer science from the School
 
 ## News
 
-<font color=orange> 🎉 The 2022 Winter Olympics will be held in Beijing, China. Want a cute Bingdundun mascot 🐼? </font> 
+<font color=orange> 🎉 The 2022 Winter Olympics will be held in Beijing, China. Want a cute Bing DwenDwen mascot 🐼? </font> 
 
 👉 [Click Here](https://www.liyongzhi.xyz/3d/#/olympic)
 
