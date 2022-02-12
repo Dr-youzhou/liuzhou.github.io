@@ -21,7 +21,10 @@ Before that, I received my bachelor's degree in computer science from the School
 
 <!-- His citation profile in [Google Scholar](https://scholar.google.com/citations?user=MIPbyQ0AAAAJ&hl=en){:target="_blank"}. -->
 
+
 ## News
+
+<font color=orange> 🎉 The 2022 Winter Olympics will be held in Beijing, China. 🎊 Want a cute Bingdundun mascot 🐼? </font> [Click Here](https://github.com/muziyongshixin/3d)
 
 - One paper accepted by IJCAI 2021.
 
