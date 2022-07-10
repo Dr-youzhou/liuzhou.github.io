@@ -24,9 +24,9 @@ Before that, I received my bachelor's degree in computer science from the School
 
 ## News
 
-<font color=orange> 🎉 The 2022 Winter Olympics will be held in Beijing, China. Want a cute Bing DwenDwen mascot 🐼? </font> 
+<!-- <font color=orange> 🎉 The 2022 Winter Olympics will be held in Beijing, China. Want a cute Bing DwenDwen mascot 🐼? </font> 
 
-👉 [Click Here](https://www.liyongzhi.xyz/3d/#/olympic)
+👉 [Click Here](https://www.liyongzhi.xyz/3d/#/olympic) -->
 
 - One paper accepted by IJCAI 2021.
 
@@ -47,7 +47,8 @@ Before that, I received my bachelor's degree in computer science from the School
 
 - **Computer Vision Algorithm Engineer in AILab, ByteDance.Inc**. (2021.7 - NAN)
 
-  - Mainly responsible for multi-modal research, as well as feature optimization and performance improvement of advertising systems.
+  - Mainly working on visual search in video content, the system is widely applied in e-commerce products retrieval as well as advertisements recall.
+  - Responsible for multi-modal research, as well as feature optimization and performance improvement of advertising systems.
 
 - **Algorithm Engineer Intern in New Retail Intelligent Engine Business Group, Alibaba Group**. (2020.6-2020.9)
 
