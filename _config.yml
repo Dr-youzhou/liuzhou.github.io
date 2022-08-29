@@ -7,13 +7,13 @@
 
 # Site Settings
 locale: 'en-US'
-title: '李勇志 (Yongzhi Li)'
+title: '刘洲 (Zhou liu)'
 title_separator: '-'
-name: &name '李勇志 (Yongzhi Li)'
-description: &description 'A master student in Peking University, China. Majored in computer vision and deep learning. '
-url: https://muziyongshixin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name: &name '刘洲 (Zhou Liu)'
+description: &description 'Phd student in Peking University, China. Majored in Physics and Deep Learning. '
+url: https://dr-youzhou.github.io/liuzhou.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: '' # the subpath of your site, e.g. "/blog"
-repository: 'muziyongshixin/muziyongshixin.github.io'
+repository: 'Dr-youzhou/liuzhou.github.io'
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: true # true, false (default)
 words_per_minute: 160
@@ -82,14 +82,14 @@ google_analytics: UA-171582480-1
 
 # Site Author
 author:
-  name: '李勇志 (Yongzhi Li)'
+  name: '刘洲 (Zhou Liu)'
   avatar: 'profile.png'
-  bio: 'I am an algorithm engineer in ByteDance.Inc. I am working on computer vision and deep learning.'
+  bio: ' 我是刘洲，我是干xxxx的'
   location: 'Beijing, China'
-  employer: 'ByteDance'
+  employer: 'Peking University'
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar: 'https://scholar.google.com.hk/citations?user=LKvjDSgAAAAJ&hl=zh-CN'
-  email: yongzhili@pku.edu.cn
+  # googlescholar: 'https://scholar.google.com.hk/citations?user=LKvjDSgAAAAJ&hl=zh-CN'
+  # email: yongzhili@pku.edu.cn
   #researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
@@ -98,13 +98,13 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: 'muziyongshixin'
+  github: 'Dr-youzhou'
   google_plus:
   keybase:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin: '%E5%8B%87%E5%BF%97-%E6%9D%8E-754894189/'
+  # linkedin: '%E5%8B%87%E5%BF%97-%E6%9D%8E-754894189/'
   # orcid: 'https://orcid.org/0000-0002-3502-2926'
   pinterest:
   soundcloud:
